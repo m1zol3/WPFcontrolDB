@@ -27,6 +27,9 @@
     <ClInclude Include="WPFcontrolDB.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="pageWPF.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -34,6 +37,9 @@
     </ClCompile>
     <ClCompile Include="WPFcontrolDB.cpp">
       <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="pageWPF.cpp">
+      <Filter>Ressourcendateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
