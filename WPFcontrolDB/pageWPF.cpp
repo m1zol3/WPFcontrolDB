@@ -1,12 +1,16 @@
 #include "stdafx.h"
 #include "pageWPF.h"
+#include <list>
+using namespace System::Windows::Documents;
  
 pageWPF::pageWPF(){}
 
 pageWPF::pageWPF(int setWidth, int setHeight ) {
     array<ColumnDefinition ^> ^ columnDef = gcnew array<ColumnDefinition ^>(8);
     array<RowDefinition ^> ^ rowDef = gcnew array<RowDefinition ^>(200);
-
+    std:: list<int> myList ;
+    CheckBox my;
+   
     this->Height = setHeight;
     this->Width = setWidth;
     this->Background = gcnew SolidColorBrush(Colors::LightGray);
@@ -23,7 +27,7 @@ pageWPF::pageWPF(int setWidth, int setHeight ) {
         rowDef[i]->Height = GridLength(1, GridUnitType::Auto);
         this->RowDefinitions->Add(rowDef[i]);
         ID = CreateLabelID(1, i+1, (i+1).ToString());
-        this->Children->Add(ID);
+        this->Children->Add(ID); 
     }
     ID = CreateLabel(1, 0, "ID");
     this->Children->Add(ID);

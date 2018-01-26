@@ -21,13 +21,13 @@ public ref class pageWPF : public Grid {
 private:
     Label ^firstname, ^lastname, ^labelText, ^date, ^status, ^teamPool,  ^teamSnooker, ^myLabel, ^ID;
     Button ^okayButton, ^cancelButton;
-
+    List myList;
 public:
  
     pageWPF();
     pageWPF(int height, int width);
     Label ^ CreateLabel(int column, int row, String ^text);
     Label ^ CreateLabelID(int column, int row, String ^text);
-
+    
 };
 
