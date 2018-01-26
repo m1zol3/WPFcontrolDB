@@ -1,15 +1,13 @@
 #include "stdafx.h"
 #include "pageWPF.h"
-#include <list>
-using namespace System::Windows::Documents;
  
+  
 pageWPF::pageWPF(){}
 
 pageWPF::pageWPF(int setWidth, int setHeight ) {
     array<ColumnDefinition ^> ^ columnDef = gcnew array<ColumnDefinition ^>(8);
     array<RowDefinition ^> ^ rowDef = gcnew array<RowDefinition ^>(200);
-    std:: list<int> myList ;
-    CheckBox my;
+  
    
     this->Height = setHeight;
     this->Width = setWidth;
