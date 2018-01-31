@@ -20,29 +20,18 @@ public:
 };
 public ref class pageWPF : public Grid {
 private:
-    Label ^firstname, ^lastname, ^labelText, ^date, ^status, ^teamPool,  ^teamSnooker, ^myLabel, ^ID;
+    Label ^ID, ^label1, ^label2, ^label3, ^label4, ^label5, ^label6, ^label7;
     Button ^okayButton, ^cancelButton;
     List myList;
 public:
- 
-   
     pageWPF();
     pageWPF(int height, int width);
     ScrollViewer ^ myScroll;
     Button ^ myButton;
     ComboBox ^ myCombo;
-    ComboBoxItem ^aktiv, ^passiv, ^gast, ehemaliger;
-    Label ^ CreateLabel( String ^text);
-    Label ^ CreateLabelID(int column, int row, String ^text);
+    Label ^ CreateLabel(int column, int row, String ^text);
     Button ^CreateButton(int column, int row, String ^text);
-    ComboBox ^CreateCombo(int column, int row, String ^text);
-    ComboBoxItem ^CreateItem(String ^text);
-    ListView ^myListView;
-    ListView ^CreateListView(int setHeigh, int setWidth);
-    ScrollViewer ^CreatScroll(int setWidth, int setHeigh);
-    
+    ComboBox ^CreateCombo(int column, int row);
   
-
-                     
 };
 
