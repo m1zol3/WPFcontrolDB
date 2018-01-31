@@ -35,10 +35,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="pageWPF.cpp">
-      <Filter>Ressourcendateien</Filter>
-    </ClCompile>
     <ClCompile Include="WPFcontrolDB.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="pageWPF.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
