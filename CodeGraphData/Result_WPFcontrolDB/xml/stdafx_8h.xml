@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="stdafx_8h" kind="file">
+    <compoundname>stdafx.h</compoundname>
+    <includes refid="targetver_8h" local="yes">targetver.h</includes>
+    <includes local="no">windows.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">malloc.h</includes>
+    <includes local="no">memory.h</includes>
+    <includes local="no">tchar.h</includes>
+    <includedby refid="page_w_p_f_8cpp" local="yes">C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp</includedby>
+    <includedby refid="page_w_p_f_8h" local="yes">C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h</includedby>
+    <includedby refid="stdafx_8cpp" local="yes">C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/stdafx.cpp</includedby>
+    <includedby refid="_w_p_fcontrol_d_b_8cpp" local="yes">C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp</includedby>
+    <incdepgraph>
+      <node id="41">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/stdafx.h</label>
+        <link refid="stdafx.h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>windows.h</label>
+      </node>
+      <node id="45">
+        <label>stdlib.h</label>
+      </node>
+      <node id="43">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="46">
+        <label>malloc.h</label>
+      </node>
+      <node id="42">
+        <label>targetver.h</label>
+        <link refid="targetver_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>memory.h</label>
+      </node>
+      <node id="48">
+        <label>tchar.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="49">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/stdafx.h</label>
+        <link refid="stdafx.h"/>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h</label>
+        <link refid="page_w_p_f_8h"/>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h</label>
+        <link refid="_w_p_fcontrol_d_b_8h"/>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/stdafx.cpp</label>
+        <link refid="stdafx_8cpp"/>
+      </node>
+      <node id="50">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp</label>
+        <link refid="page_w_p_f_8cpp"/>
+      </node>
+      <node id="53">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp</label>
+        <link refid="_w_p_fcontrol_d_b_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="stdafx_8h_1ac7bef5d85e3dcd73eef56ad39ffc84a9" prot="public" static="no">
+        <name>WIN32_LEAN_AND_MEAN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/stdafx.h" line="10" column="9" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/stdafx.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>stdafx.h:<sp/>Includedatei<sp/>für<sp/>Standardsystem-Includedateien</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>oder<sp/>häufig<sp/>verwendete<sp/>projektspezifische<sp/>Includedateien,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>die<sp/>nur<sp/>in<sp/>unregelmäßigen<sp/>Abständen<sp/>geändert<sp/>werden.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="targetver_8h" kindref="compound">targetver.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="stdafx_8h_1ac7bef5d85e3dcd73eef56ad39ffc84a9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WIN32_LEAN_AND_MEAN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Selten<sp/>verwendete<sp/>Komponenten<sp/>aus<sp/>Windows-Headern<sp/>ausschließen</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="comment">//<sp/>Windows-Headerdateien:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>C<sp/>RunTime-Headerdateien</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;malloc.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;tchar.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>Hier<sp/>auf<sp/>zusätzliche<sp/>Header,<sp/>die<sp/>das<sp/>Programm<sp/>erfordert,<sp/>verweisen.</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/stdafx.h"/>
+  </compounddef>
+</doxygen>

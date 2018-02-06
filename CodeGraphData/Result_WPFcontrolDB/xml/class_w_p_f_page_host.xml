@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_w_p_f_page_host" kind="class" prot="public">
+    <compoundname>WPFPageHost</compoundname>
+    <includes refid="_w_p_fcontrol_d_b_8h" local="no">WPFcontrolDB.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_w_p_f_page_host_1af23c7cac441eeeb886b5bbb4c050f8ee" prot="public" static="yes" mutable="no">
+        <type><ref refid="classpage_w_p_f" kindref="compound">pageWPF</ref></type>
+        <definition>pageWPF WPFPageHost::hostedPage</definition>
+        <argsstring></argsstring>
+        <name>hostedPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="11" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" bodystart="11" bodyend="-1"/>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1aab5e179aff8a8cf063032c03db9734bc" compoundref="_w_p_fcontrol_d_b_8cpp" startline="189" endline="209">GetHwnd</referencedby>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1a051ee1e50c5383338789709bd8d3a582" compoundref="_w_p_fcontrol_d_b_8cpp" startline="257" endline="274">WPFButtonClicked</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_w_p_f_page_host_1af20e92f172eb4ad3942f37e0c0c94c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WPFPageHost::WPFPageHost</definition>
+        <argsstring>()</argsstring>
+        <name>WPFPageHost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="10" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="188" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="10">
+        <label>pageWPF</label>
+        <link refid="classpage_w_p_f"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>WPFPageHost</label>
+        <link refid="class_w_p_f_page_host"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>hostedPage</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Grid</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="8" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_w_p_f_page_host_1af23c7cac441eeeb886b5bbb4c050f8ee" prot="public" virt="non-virtual"><scope>WPFPageHost</scope><name>hostedPage</name></member>
+      <member refid="class_w_p_f_page_host_1af20e92f172eb4ad3942f37e0c0c94c32" prot="public" virt="non-virtual"><scope>WPFPageHost</scope><name>WPFPageHost</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

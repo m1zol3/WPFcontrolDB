@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c39e33e2394afde545d9821646cb1022" kind="dir">
+    <compoundname>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB</compoundname>
+    <innerfile refid="page_w_p_f_8cpp">pageWPF.cpp</innerfile>
+    <innerfile refid="page_w_p_f_8h">pageWPF.h</innerfile>
+    <innerfile refid="resource_8h">resource.h</innerfile>
+    <innerfile refid="stdafx_8cpp">stdafx.cpp</innerfile>
+    <innerfile refid="stdafx_8h">stdafx.h</innerfile>
+    <innerfile refid="targetver_8h">targetver.h</innerfile>
+    <innerfile refid="_w_p_fcontrol_d_b_8cpp">WPFcontrolDB.cpp</innerfile>
+    <innerfile refid="_w_p_fcontrol_d_b_8h">WPFcontrolDB.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/"/>
+  </compounddef>
+</doxygen>

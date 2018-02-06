@@ -3,18 +3,19 @@
 #include <windows.h>
 #include <CommCtrl.h>
 #include <string.h>
+#include <iostream>
 //Version 5
 
 pageWPF::pageWPF() {}
-
 pageWPF::pageWPF(int setWidth, int setHeight) {
-
+   
     Grid ^myGrid = gcnew Grid();
     array<ColumnDefinition ^> ^ columnDef = gcnew array<ColumnDefinition ^>(10);
     array<RowDefinition ^> ^ rowDef = gcnew array<RowDefinition ^>(200);
 
     ScrollViewer ^myWindow = gcnew ScrollViewer();
     StackPanel ^myStackPanel = gcnew StackPanel();
+   
     this->Height = setHeight;
     this->Width = setWidth;
 
@@ -47,15 +48,18 @@ pageWPF::pageWPF(int setWidth, int setHeight) {
     Create ComboBox and Add Items
     */
     myCombo = CreateCombo(0, 0);
-    myCombo->Items->Add("Item 1");
-    myCombo->Items->Add("Item 2");
-    myCombo->Items->Add("Item 3");
-    myCombo->Items->Add("Item 4");
-    myCombo->Items->Add("Item 5");
+ 
+    myItem= CreateMyItem("Item0","Item 0");
+    myItem = CreateMyItem("Item1", "Item 1");
+    myItem = CreateMyItem("Item2", "Item 2");
+    myItem = CreateMyItem("Item3", "Item 3");
+    myItem = CreateMyItem("Item4", "Item 4");
+ 
 
     /*
     Create Labels and Add it to Grid
     */
+    
     myGrid->SetColumnSpan(myCombo, 2);
     ID = CreateLabel(0, 2, "ID");
     label1 = CreateLabel(1, 2, "Label 1");
@@ -68,6 +72,11 @@ pageWPF::pageWPF(int setWidth, int setHeight) {
     label7 = CreateLabel(7, 2, "Label 7");
     myButton = CreateButton(2, 0, L"Check");
 
+    myButton->Click += gcnew RoutedEventHandler(this, &pageWPF::ButtonClicked);
+    
+    myText = CreaTextBlock(5,5);
+    myGrid->Children->Add(myText);
+    
     myGrid->Children->Add(ID);
     myGrid->Children->Add(myCombo);
     myGrid->Children->Add(label1);
@@ -105,15 +114,53 @@ ComboBox ^pageWPF::CreateCombo(int column, int row) {
     Grid::SetRow(newCombo, row);
     return newCombo;
 }
+TextBox ^pageWPF::CreaTextBlock(int column, int row) {
+    TextBox ^newText = gcnew TextBox();
+    newText->IsEnabled = false;
+    Grid::SetColumn(newText, column);
+    Grid::SetRow(newText, row);
+    return newText;
+}
+ComboBoxItem ^ pageWPF::CreateMyItem(String ^ name,String ^text)
+{
+    ComboBoxItem ^myItem = gcnew  ComboBoxItem();
+    myItem->Name = name;
+    myItem->Content = text;
+    myCombo->Items->Add(myItem);
+    return myItem;
+    // TODO: hier Rückgabeanweisung eingeben
+}
 Label ^pageWPF::CreateLabel(int column, int row, String ^ text)
 {
     Label ^ newLabel = gcnew Label();
     newLabel->Content = text;
-    newLabel->Margin = Thickness(10, 5, 10, 0);
+    /*newLabel->Margin = Thickness(10, 5, 10, 0);
     newLabel->FontWeight = FontWeights::ExtraBold;
-    newLabel->FontSize = 12;
-    //newLabel->Background = gcnew SolidColorBrush(Colors::Gray);
+    newLabel->FontSize = 12;*/
+    Grid::SetRow(newLabel, row); 
     Grid::SetColumn(newLabel, column);
-    Grid::SetRow(newLabel, row);
+   
     return newLabel;
+}
+
+ 
+void pageWPF::ButtonClicked(Object ^sender, RoutedEventArgs ^args)
+{
+
+    //TODO: validate input data
+    bool okClicked = true;
+
+    OnButtonClicked(this, gcnew DBPageEventArgs(okClicked));
+}
+
+DBPageEventArgs::DBPageEventArgs()
+{
+    
+}
+
+DBPageEventArgs::DBPageEventArgs(bool Okay)
+{
+
+    isOkay = Okay;
+    
 }

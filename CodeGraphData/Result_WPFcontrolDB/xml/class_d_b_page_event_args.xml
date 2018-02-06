@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_b_page_event_args" kind="class" prot="public">
+    <compoundname>DBPageEventArgs</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EventArgs</basecompoundref>
+    <includes refid="page_w_p_f_8h" local="no">pageWPF.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_b_page_event_args_1aae3867279823d2ddb2b52dc994fa07e4" prot="public" static="no" mutable="no">
+        <type>property bool</type>
+        <definition>property bool DBPageEventArgs::isOkay</definition>
+        <argsstring></argsstring>
+        <name>isOkay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="18" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_d_b_page_event_args_1a2433944de1c58f9be7f08a79cdcdec46" compoundref="page_w_p_f_8cpp" startline="160" endline="165">DBPageEventArgs</referencedby>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1a051ee1e50c5383338789709bd8d3a582" compoundref="_w_p_fcontrol_d_b_8cpp" startline="257" endline="274">WPFButtonClicked</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_b_page_event_args_1a2245d915cc356e698071c4b3c0a72d68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DBPageEventArgs::DBPageEventArgs</definition>
+        <argsstring>()</argsstring>
+        <name>DBPageEventArgs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="15" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp" bodystart="155" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_page_event_args_1a2433944de1c58f9be7f08a79cdcdec46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DBPageEventArgs::DBPageEventArgs</definition>
+        <argsstring>(bool Okay)</argsstring>
+        <name>DBPageEventArgs</name>
+        <param>
+          <type>bool</type>
+          <declname>Okay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="16" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp" bodystart="160" bodyend="165"/>
+        <references refid="class_d_b_page_event_args_1aae3867279823d2ddb2b52dc994fa07e4" compoundref="page_w_p_f_8h" startline="18">isOkay</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EventArgs</label>
+      </node>
+      <node id="0">
+        <label>DBPageEventArgs</label>
+        <link refid="class_d_b_page_event_args"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>EventArgs</label>
+      </node>
+      <node id="2">
+        <label>DBPageEventArgs</label>
+        <link refid="class_d_b_page_event_args"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="13" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="12" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_d_b_page_event_args_1a2245d915cc356e698071c4b3c0a72d68" prot="public" virt="non-virtual"><scope>DBPageEventArgs</scope><name>DBPageEventArgs</name></member>
+      <member refid="class_d_b_page_event_args_1a2433944de1c58f9be7f08a79cdcdec46" prot="public" virt="non-virtual"><scope>DBPageEventArgs</scope><name>DBPageEventArgs</name></member>
+      <member refid="class_d_b_page_event_args_1aae3867279823d2ddb2b52dc994fa07e4" prot="public" virt="non-virtual"><scope>DBPageEventArgs</scope><name>isOkay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

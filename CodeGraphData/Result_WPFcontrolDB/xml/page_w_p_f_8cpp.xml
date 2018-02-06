@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="page_w_p_f_8cpp" kind="file">
+    <compoundname>pageWPF.cpp</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes refid="page_w_p_f_8h" local="yes">pageWPF.h</includes>
+    <includes local="no">windows.h</includes>
+    <includes local="no">CommCtrl.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>windows.h</label>
+      </node>
+      <node id="5">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="9">
+        <label>pageWPF.h</label>
+        <link refid="page_w_p_f_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>malloc.h</label>
+      </node>
+      <node id="2">
+        <label>targetver.h</label>
+        <link refid="targetver_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>memory.h</label>
+      </node>
+      <node id="10">
+        <label>CommCtrl.h</label>
+      </node>
+      <node id="11">
+        <label>string.h</label>
+      </node>
+      <node id="12">
+        <label>iostream</label>
+      </node>
+      <node id="0">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp</label>
+        <link refid="pageWPF.cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>tchar.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="page_w_p_f_8h" kindref="compound">pageWPF.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;CommCtrl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//Version<sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classpage_w_p_f_1afadaccaa0c077a1c859954f7eb9d1002" refkind="member"><highlight class="normal"><ref refid="classpage_w_p_f_1afadaccaa0c077a1c859954f7eb9d1002" kindref="member">pageWPF::pageWPF</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="10" refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" refkind="member"><highlight class="normal"><ref refid="classpage_w_p_f_1afadaccaa0c077a1c859954f7eb9d1002" kindref="member">pageWPF::pageWPF</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>setWidth,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>setHeight)<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Grid<sp/>^<ref refid="classpage_w_p_f_1aad53d8bc2d2daaeb40b838a71bafbea5" kindref="member">myGrid</ref><sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>Grid();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>array&lt;ColumnDefinition<sp/>^&gt;<sp/>^<sp/>columnDef<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>array&lt;ColumnDefinition<sp/>^&gt;(10);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>array&lt;RowDefinition<sp/>^&gt;<sp/>^<sp/>rowDef<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>array&lt;RowDefinition<sp/>^&gt;(200);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>ScrollViewer<sp/>^myWindow<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>ScrollViewer();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>StackPanel<sp/>^myStackPanel<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>StackPanel();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Height<sp/>=<sp/>setHeight;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Width<sp/>=<sp/>setWidth;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Background<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>SolidColorBrush(Colors::LightGray);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/><sp/><sp/>Create<sp/>colums<sp/>&amp;<sp/>ros<sp/>for<sp/>Grid</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>10;<sp/>i++)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>columnDef[i]<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>ColumnDefinition();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>columnDef[i]-&gt;Width<sp/>=<sp/>GridLength(1,<sp/>GridUnitType::Auto);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>myGrid-&gt;ColumnDefinitions-&gt;Add(columnDef[i]);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>200;<sp/>i++)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rowDef[i]<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>RowDefinition();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rowDef[i]-&gt;Height<sp/>=<sp/>GridLength(1,<sp/>GridUnitType::Auto);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>myGrid-&gt;RowDefinitions-&gt;Add(rowDef[i]);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;Width<sp/>=<sp/>setWidth;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;HorizontalAlignment<sp/>=<sp/>System::Windows::HorizontalAlignment::Left;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;VerticalAlignment<sp/>=<sp/>System::Windows::VerticalAlignment::Top;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;ShowGridLines<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>myWindow-&gt;Height<sp/>=<sp/>setHeight;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>myWindow-&gt;Width<sp/>=<sp/>setWidth;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/>Create<sp/>ComboBox<sp/>and<sp/>Add<sp/>Items</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1afbebe4f5f5087506520cc4ffe84d2658" kindref="member">myCombo</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1acd6d1138c5e772061942c944d0513444" kindref="member">CreateCombo</ref>(0,<sp/>0);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" kindref="member">myItem</ref>=<sp/><ref refid="classpage_w_p_f_1a265f028ace1dbca4978d955b4540e0f9" kindref="member">CreateMyItem</ref>(</highlight><highlight class="stringliteral">&quot;Item0&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Item<sp/>0&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" kindref="member">myItem</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1a265f028ace1dbca4978d955b4540e0f9" kindref="member">CreateMyItem</ref>(</highlight><highlight class="stringliteral">&quot;Item1&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Item<sp/>1&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" kindref="member">myItem</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1a265f028ace1dbca4978d955b4540e0f9" kindref="member">CreateMyItem</ref>(</highlight><highlight class="stringliteral">&quot;Item2&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Item<sp/>2&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" kindref="member">myItem</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1a265f028ace1dbca4978d955b4540e0f9" kindref="member">CreateMyItem</ref>(</highlight><highlight class="stringliteral">&quot;Item3&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Item<sp/>3&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" kindref="member">myItem</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1a265f028ace1dbca4978d955b4540e0f9" kindref="member">CreateMyItem</ref>(</highlight><highlight class="stringliteral">&quot;Item4&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Item<sp/>4&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/>Create<sp/>Labels<sp/>and<sp/>Add<sp/>it<sp/>to<sp/>Grid</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;SetColumnSpan(<ref refid="classpage_w_p_f_1afbebe4f5f5087506520cc4ffe84d2658" kindref="member">myCombo</ref>,<sp/>2);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a2dee621a10a642a53b6cbb475cab43bd" kindref="member">ID</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" kindref="member">CreateLabel</ref>(0,<sp/>2,<sp/></highlight><highlight class="stringliteral">&quot;ID&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a156dae5b7b1d1259be1002c8812bfac4" kindref="member">label1</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" kindref="member">CreateLabel</ref>(1,<sp/>2,<sp/></highlight><highlight class="stringliteral">&quot;Label<sp/>1&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a83732eb2e58581126f3d138ec01dcfc4" kindref="member">label2</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" kindref="member">CreateLabel</ref>(2,<sp/>2,<sp/></highlight><highlight class="stringliteral">&quot;Label<sp/>2&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a848a65205c5fbdde210ba5f2ffc41945" kindref="member">label3</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" kindref="member">CreateLabel</ref>(3,<sp/>2,<sp/></highlight><highlight class="stringliteral">&quot;Label<sp/>3&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a603eab2dea013a530a684a1bf6fa93c5" kindref="member">label4</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" kindref="member">CreateLabel</ref>(4,<sp/>2,<sp/></highlight><highlight class="stringliteral">&quot;Label<sp/>4&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1af8e7256e78f9dc45fdd5786e4ab2ef41" kindref="member">label5</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" kindref="member">CreateLabel</ref>(5,<sp/>2,<sp/></highlight><highlight class="stringliteral">&quot;Label<sp/>5&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1af549f9ed3e55d68d7df84dda8dfceac1" kindref="member">label6</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" kindref="member">CreateLabel</ref>(6,<sp/>2,<sp/></highlight><highlight class="stringliteral">&quot;Label<sp/>6&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a4378989033e1592e39e4ac64162a2762" kindref="member">label7</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" kindref="member">CreateLabel</ref>(7,<sp/>2,<sp/></highlight><highlight class="stringliteral">&quot;Label<sp/>7&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a057e89b9dbb4fccc2bb84f30c35c83a5" kindref="member">myButton</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1a29171b9aab7afd015048f0282834b8d2" kindref="member">CreateButton</ref>(2,<sp/>0,<sp/>L</highlight><highlight class="stringliteral">&quot;Check&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a057e89b9dbb4fccc2bb84f30c35c83a5" kindref="member">myButton</ref>-&gt;Click<sp/>+=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>RoutedEventHandler(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="classpage_w_p_f_1a1e80254ea69f45220573812fc6e144af" kindref="member">pageWPF::ButtonClicked</ref>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1ad074cac30cf59d872d2566a57d9f2922" kindref="member">myText</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1a9e2d26d9f633545a18c32af0fc23c8b2" kindref="member">CreaTextBlock</ref>(5,5);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1ad074cac30cf59d872d2566a57d9f2922" kindref="member">myText</ref>-&gt;Text=</highlight><highlight class="stringliteral">&quot;asd&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;Children-&gt;Add(<ref refid="classpage_w_p_f_1ad074cac30cf59d872d2566a57d9f2922" kindref="member">myText</ref>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;Children-&gt;Add(<ref refid="classpage_w_p_f_1a2dee621a10a642a53b6cbb475cab43bd" kindref="member">ID</ref>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;Children-&gt;Add(<ref refid="classpage_w_p_f_1afbebe4f5f5087506520cc4ffe84d2658" kindref="member">myCombo</ref>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;Children-&gt;Add(<ref refid="classpage_w_p_f_1a156dae5b7b1d1259be1002c8812bfac4" kindref="member">label1</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;Children-&gt;Add(<ref refid="classpage_w_p_f_1a83732eb2e58581126f3d138ec01dcfc4" kindref="member">label2</ref>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;Children-&gt;Add(<ref refid="classpage_w_p_f_1a848a65205c5fbdde210ba5f2ffc41945" kindref="member">label3</ref>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;Children-&gt;Add(<ref refid="classpage_w_p_f_1a603eab2dea013a530a684a1bf6fa93c5" kindref="member">label4</ref>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;Children-&gt;Add(<ref refid="classpage_w_p_f_1af8e7256e78f9dc45fdd5786e4ab2ef41" kindref="member">label5</ref>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;Children-&gt;Add(<ref refid="classpage_w_p_f_1af549f9ed3e55d68d7df84dda8dfceac1" kindref="member">label6</ref>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;Children-&gt;Add(<ref refid="classpage_w_p_f_1a4378989033e1592e39e4ac64162a2762" kindref="member">label7</ref>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;<sp/>100;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1a2dee621a10a642a53b6cbb475cab43bd" kindref="member">ID</ref><sp/>=<sp/><ref refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" kindref="member">CreateLabel</ref>(0,<sp/>i<sp/>+<sp/>2,<sp/>i.ToString());</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>myGrid-&gt;Children-&gt;Add(<ref refid="classpage_w_p_f_1a2dee621a10a642a53b6cbb475cab43bd" kindref="member">ID</ref>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>myGrid-&gt;Children-&gt;Add(<ref refid="classpage_w_p_f_1a057e89b9dbb4fccc2bb84f30c35c83a5" kindref="member">myButton</ref>);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>myStackPanel-&gt;Children-&gt;Add(myGrid);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Children-&gt;Add(myWindow);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>myStackPanel-&gt;Width<sp/>=<sp/>1000;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>myStackPanel-&gt;HorizontalAlignment<sp/>=<sp/>System::Windows::HorizontalAlignment::Left;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>myWindow-&gt;Content<sp/>=<sp/>myStackPanel;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102" refid="classpage_w_p_f_1a29171b9aab7afd015048f0282834b8d2" refkind="member"><highlight class="normal">Button<sp/>^<ref refid="classpage_w_p_f_1a29171b9aab7afd015048f0282834b8d2" kindref="member">pageWPF::CreateButton</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>column,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/>String<sp/>^text)<sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>Button<sp/>^newButton<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>Button();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>newButton-&gt;Content<sp/>=<sp/>text;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>newButton-&gt;Name<sp/>=<sp/>text;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>Grid::SetColumn(newButton,<sp/>column);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>Grid::SetRow(newButton,<sp/>row);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>newButton;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110" refid="classpage_w_p_f_1acd6d1138c5e772061942c944d0513444" refkind="member"><highlight class="normal">ComboBox<sp/>^<ref refid="classpage_w_p_f_1acd6d1138c5e772061942c944d0513444" kindref="member">pageWPF::CreateCombo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>column,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row)<sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>ComboBox<sp/>^newCombo<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>ComboBox();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>Grid::SetColumn(newCombo,<sp/>column);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>Grid::SetRow(newCombo,<sp/>row);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>newCombo;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116" refid="classpage_w_p_f_1a9e2d26d9f633545a18c32af0fc23c8b2" refkind="member"><highlight class="normal">TextBox<sp/>^<ref refid="classpage_w_p_f_1a9e2d26d9f633545a18c32af0fc23c8b2" kindref="member">pageWPF::CreaTextBlock</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>column,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row)<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>TextBox<sp/>^newText<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>TextBox();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>newText-&gt;IsEnabled<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>Grid::SetColumn(newText,<sp/>column);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>Grid::SetRow(newText,<sp/>row);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>newText;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123" refid="classpage_w_p_f_1a265f028ace1dbca4978d955b4540e0f9" refkind="member"><highlight class="normal">ComboBoxItem<sp/>^<sp/><ref refid="classpage_w_p_f_1a265f028ace1dbca4978d955b4540e0f9" kindref="member">pageWPF::CreateMyItem</ref>(String<sp/>^<sp/>name,String<sp/>^text)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>ComboBoxItem<sp/>^<ref refid="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" kindref="member">myItem</ref><sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/><sp/>ComboBoxItem();</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>myItem-&gt;Name<sp/>=<sp/>name;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>myItem-&gt;Content<sp/>=<sp/>text;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1afbebe4f5f5087506520cc4ffe84d2658" kindref="member">myCombo</ref>-&gt;Items-&gt;Add(myItem);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" kindref="member">myItem</ref>;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>hier<sp/>Rückgabeanweisung<sp/>eingeben</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132" refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" refkind="member"><highlight class="normal">Label<sp/>^<ref refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" kindref="member">pageWPF::CreateLabel</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>column,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/>String<sp/>^<sp/>text)</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>Label<sp/>^<sp/>newLabel<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>Label();</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>newLabel-&gt;Content<sp/>=<sp/>text;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*newLabel-&gt;Margin<sp/>=<sp/>Thickness(10,<sp/>5,<sp/>10,<sp/>0);</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/><sp/>newLabel-&gt;FontWeight<sp/>=<sp/>FontWeights::ExtraBold;</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/>newLabel-&gt;FontSize<sp/>=<sp/>12;*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>Grid::SetRow(newLabel,<sp/>row);<sp/></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>Grid::SetColumn(newLabel,<sp/>column);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>newLabel;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="146" refid="classpage_w_p_f_1a1e80254ea69f45220573812fc6e144af" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpage_w_p_f_1a1e80254ea69f45220573812fc6e144af" kindref="member">pageWPF::ButtonClicked</ref>(Object<sp/>^sender,<sp/>RoutedEventArgs<sp/>^args)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO:<sp/>validate<sp/>input<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>okClicked<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f_1afe529743ee93e8bf300735de3e14b0cf" kindref="member">OnButtonClicked</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/><ref refid="class_d_b_page_event_args" kindref="compound">DBPageEventArgs</ref>(okClicked));</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="class_d_b_page_event_args_1a2245d915cc356e698071c4b3c0a72d68" refkind="member"><highlight class="normal"><ref refid="class_d_b_page_event_args_1a2245d915cc356e698071c4b3c0a72d68" kindref="member">DBPageEventArgs::DBPageEventArgs</ref>()</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="class_d_b_page_event_args_1a2433944de1c58f9be7f08a79cdcdec46" refkind="member"><highlight class="normal"><ref refid="class_d_b_page_event_args_1a2245d915cc356e698071c4b3c0a72d68" kindref="member">DBPageEventArgs::DBPageEventArgs</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Okay)</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_d_b_page_event_args_1aae3867279823d2ddb2b52dc994fa07e4" kindref="member">isOkay</ref><sp/>=<sp/>Okay;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="page_w_p_f_8h" kind="file">
+    <compoundname>pageWPF.h</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includedby refid="page_w_p_f_8cpp" local="yes">C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp</includedby>
+    <includedby refid="_w_p_fcontrol_d_b_8h" local="yes">C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h</includedby>
+    <incdepgraph>
+      <node id="15">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>windows.h</label>
+      </node>
+      <node id="19">
+        <label>stdlib.h</label>
+      </node>
+      <node id="17">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="14">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h</label>
+        <link refid="pageWPF.h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>malloc.h</label>
+      </node>
+      <node id="16">
+        <label>targetver.h</label>
+        <link refid="targetver_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>memory.h</label>
+      </node>
+      <node id="22">
+        <label>tchar.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="23">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h</label>
+        <link refid="pageWPF.h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h</label>
+        <link refid="_w_p_fcontrol_d_b_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp</label>
+        <link refid="page_w_p_f_8cpp"/>
+      </node>
+      <node id="26">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp</label>
+        <link refid="_w_p_fcontrol_d_b_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_d_b_page_event_args" prot="public">DBPageEventArgs</innerclass>
+    <innerclass refid="classpage_w_p_f" prot="public">pageWPF</innerclass>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <innernamespace refid="namespace_system_1_1_windows">System::Windows</innernamespace>
+    <innernamespace refid="namespace_system_1_1_windows_1_1_navigation">System::Windows::Navigation</innernamespace>
+    <innernamespace refid="namespace_system_1_1_windows_1_1_documents">System::Windows::Documents</innernamespace>
+    <innernamespace refid="namespace_system_1_1_threading">System::Threading</innernamespace>
+    <innernamespace refid="namespace_system_1_1_windows_1_1_controls">System::Windows::Controls</innernamespace>
+    <innernamespace refid="namespace_system_1_1_windows_1_1_media">System::Windows::Media</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Windows;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Windows::Navigation;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Windows::Documents;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Threading;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Windows::Controls;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Windows::Media;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="12" refid="class_d_b_page_event_args" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public<sp/>ref<sp/>class</highlight><highlight class="normal"><sp/><sp/><ref refid="class_d_b_page_event_args" kindref="compound">DBPageEventArgs</ref><sp/>:<sp/>EventArgs</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="class_d_b_page_event_args" kindref="compound">DBPageEventArgs</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="class_d_b_page_event_args" kindref="compound">DBPageEventArgs</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Okay);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_d_b_page_event_args_1aae3867279823d2ddb2b52dc994fa07e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">property</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_d_b_page_event_args_1aae3867279823d2ddb2b52dc994fa07e4" kindref="member">isOkay</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="21" refid="classpage_w_p_f" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public<sp/>ref<sp/>class</highlight><highlight class="normal"><sp/><ref refid="classpage_w_p_f" kindref="compound">pageWPF</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Grid<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23" refid="classpage_w_p_f_1a5cfb9bea333ab1723a228686023349ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Label<sp/>^ID,<sp/>^label1,<sp/>^label2,<sp/>^label3,<sp/>^label4,<sp/>^label5,<sp/>^label6,<sp/>^label7,<sp/>^<ref refid="classpage_w_p_f_1a5cfb9bea333ab1723a228686023349ac" kindref="member">label8</ref>;</highlight></codeline>
+<codeline lineno="24" refid="classpage_w_p_f_1ac2159df5778a771d1caf8305289c3be8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Button<sp/>^<ref refid="classpage_w_p_f_1ac2159df5778a771d1caf8305289c3be8" kindref="member">okayButton</ref>,<sp/>^cancelButton;</highlight></codeline>
+<codeline lineno="25" refid="classpage_w_p_f_1ad9e7ef5320265056bbeb733d71244961" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>List<sp/><ref refid="classpage_w_p_f_1ad9e7ef5320265056bbeb733d71244961" kindref="member">myList</ref>;</highlight></codeline>
+<codeline lineno="26" refid="classpage_w_p_f_1aa6ca49ba9ac7001a106f30ca3949807e" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>handle<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>delegate<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ButtonClickHandler(Object<sp/>^,<sp/><ref refid="class_d_b_page_event_args" kindref="compound">DBPageEventArgs</ref><sp/>^);</highlight></codeline>
+<codeline lineno="29" refid="classpage_w_p_f_1afe529743ee93e8bf300735de3e14b0cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">event</highlight><highlight class="normal"><sp/>ButtonClickHandler<sp/>^<ref refid="classpage_w_p_f_1afe529743ee93e8bf300735de3e14b0cf" kindref="member">OnButtonClicked</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>delegate<sp/>void<sp/>ButtonClickHandler(Object<sp/>^,<sp/>myPage<sp/>^);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f" kindref="compound">pageWPF</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f" kindref="compound">pageWPF</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34" refid="classpage_w_p_f_1a0a673735d50f8b3842ecfd9c14155d64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ScrollViewer<sp/>^<sp/><ref refid="classpage_w_p_f_1a0a673735d50f8b3842ecfd9c14155d64" kindref="member">myScroll</ref>;</highlight></codeline>
+<codeline lineno="35" refid="classpage_w_p_f_1a057e89b9dbb4fccc2bb84f30c35c83a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Button<sp/>^<sp/><ref refid="classpage_w_p_f_1a057e89b9dbb4fccc2bb84f30c35c83a5" kindref="member">myButton</ref>;</highlight></codeline>
+<codeline lineno="36" refid="classpage_w_p_f_1afbebe4f5f5087506520cc4ffe84d2658" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ComboBox<sp/>^<sp/><ref refid="classpage_w_p_f_1afbebe4f5f5087506520cc4ffe84d2658" kindref="member">myCombo</ref>;</highlight></codeline>
+<codeline lineno="37" refid="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ComboBoxItem<sp/>^<ref refid="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" kindref="member">myItem</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>Label<sp/>^<sp/>CreateLabel(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>column,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/>String<sp/>^text);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ButtonClicked(Object<sp/>^<sp/>sender,<sp/>RoutedEventArgs<sp/>^<sp/>args);</highlight></codeline>
+<codeline lineno="40" refid="classpage_w_p_f_1aad53d8bc2d2daaeb40b838a71bafbea5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Grid<sp/>^<ref refid="classpage_w_p_f_1aad53d8bc2d2daaeb40b838a71bafbea5" kindref="member">myGrid</ref>;</highlight></codeline>
+<codeline lineno="41" refid="classpage_w_p_f_1ad074cac30cf59d872d2566a57d9f2922" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TextBox<sp/>^<ref refid="classpage_w_p_f_1ad074cac30cf59d872d2566a57d9f2922" kindref="member">myText</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>Button<sp/>^CreateButton(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>column,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/>String<sp/>^text);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>ComboBox<sp/>^CreateCombo(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>column,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>ComboBoxItem<sp/>^CreateMyItem(<sp/>String<sp/>^name,<sp/>String<sp/>^text);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>TextBox<sp/>^<sp/>CreaTextBlock(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>column,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h"/>
+  </compounddef>
+</doxygen>

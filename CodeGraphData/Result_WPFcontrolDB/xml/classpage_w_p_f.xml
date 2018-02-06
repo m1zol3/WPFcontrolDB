@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classpage_w_p_f" kind="class" prot="public">
+    <compoundname>pageWPF</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Grid</basecompoundref>
+    <includes refid="page_w_p_f_8h" local="no">pageWPF.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpage_w_p_f_1a2dee621a10a642a53b6cbb475cab43bd" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label pageWPF::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="23" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1a156dae5b7b1d1259be1002c8812bfac4" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label pageWPF::label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="23" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1a83732eb2e58581126f3d138ec01dcfc4" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label pageWPF::label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="23" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1a848a65205c5fbdde210ba5f2ffc41945" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label pageWPF::label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="23" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1a603eab2dea013a530a684a1bf6fa93c5" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label pageWPF::label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="23" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1af8e7256e78f9dc45fdd5786e4ab2ef41" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label pageWPF::label5</definition>
+        <argsstring></argsstring>
+        <name>label5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="23" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1af549f9ed3e55d68d7df84dda8dfceac1" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label pageWPF::label6</definition>
+        <argsstring></argsstring>
+        <name>label6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="23" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1a4378989033e1592e39e4ac64162a2762" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label pageWPF::label7</definition>
+        <argsstring></argsstring>
+        <name>label7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="23" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1a5cfb9bea333ab1723a228686023349ac" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label pageWPF::label8</definition>
+        <argsstring></argsstring>
+        <name>label8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="23" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1ac2159df5778a771d1caf8305289c3be8" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button pageWPF::okayButton</definition>
+        <argsstring></argsstring>
+        <name>okayButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="24" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1acd4d0310fa313bc9bbb44592bd246732" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button pageWPF::cancelButton</definition>
+        <argsstring></argsstring>
+        <name>cancelButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="24" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1ad9e7ef5320265056bbeb733d71244961" prot="private" static="no" mutable="no">
+        <type>List</type>
+        <definition>List pageWPF::myList</definition>
+        <argsstring></argsstring>
+        <name>myList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="25" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1aa6ca49ba9ac7001a106f30ca3949807e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool pageWPF::handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="26" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classpage_w_p_f_1afe529743ee93e8bf300735de3e14b0cf" prot="public" static="no" mutable="no">
+        <type>event <ref refid="classpage_w_p_f_1ae5af5800f7035c814b6521f4bc80a7df" kindref="member">ButtonClickHandler</ref></type>
+        <definition>event ButtonClickHandler pageWPF::OnButtonClicked</definition>
+        <argsstring></argsstring>
+        <name>OnButtonClicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="29" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a1e80254ea69f45220573812fc6e144af" compoundref="page_w_p_f_8cpp" startline="146" endline="153">ButtonClicked</referencedby>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1aab5e179aff8a8cf063032c03db9734bc" compoundref="_w_p_fcontrol_d_b_8cpp" startline="189" endline="209">GetHwnd</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1a0a673735d50f8b3842ecfd9c14155d64" prot="public" static="no" mutable="no">
+        <type>ScrollViewer</type>
+        <definition>ScrollViewer pageWPF::myScroll</definition>
+        <argsstring></argsstring>
+        <name>myScroll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="34" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1a057e89b9dbb4fccc2bb84f30c35c83a5" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button pageWPF::myButton</definition>
+        <argsstring></argsstring>
+        <name>myButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="35" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1afbebe4f5f5087506520cc4ffe84d2658" prot="public" static="no" mutable="no">
+        <type>ComboBox</type>
+        <definition>ComboBox pageWPF::myCombo</definition>
+        <argsstring></argsstring>
+        <name>myCombo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="36" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a265f028ace1dbca4978d955b4540e0f9" compoundref="page_w_p_f_8cpp" startline="123" endline="131">CreateMyItem</referencedby>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" prot="public" static="no" mutable="no">
+        <type>ComboBoxItem</type>
+        <definition>ComboBoxItem pageWPF::myItem</definition>
+        <argsstring></argsstring>
+        <name>myItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="37" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a265f028ace1dbca4978d955b4540e0f9" compoundref="page_w_p_f_8cpp" startline="123" endline="131">CreateMyItem</referencedby>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1aad53d8bc2d2daaeb40b838a71bafbea5" prot="public" static="no" mutable="no">
+        <type>Grid</type>
+        <definition>Grid pageWPF::myGrid</definition>
+        <argsstring></argsstring>
+        <name>myGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="40" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpage_w_p_f_1ad074cac30cf59d872d2566a57d9f2922" prot="public" static="no" mutable="no">
+        <type>TextBox</type>
+        <definition>TextBox pageWPF::myText</definition>
+        <argsstring></argsstring>
+        <name>myText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="41" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1a051ee1e50c5383338789709bd8d3a582" compoundref="_w_p_fcontrol_d_b_8cpp" startline="257" endline="274">WPFButtonClicked</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpage_w_p_f_1ae5af5800f7035c814b6521f4bc80a7df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void pageWPF::ButtonClickHandler</definition>
+        <argsstring>(Object^, DBPageEventArgs^)</argsstring>
+        <name>ButtonClickHandler</name>
+        <param>
+          <type>Object^</type>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_page_event_args" kindref="compound">DBPageEventArgs</ref>^</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="28" column="1"/>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1aab5e179aff8a8cf063032c03db9734bc" compoundref="_w_p_fcontrol_d_b_8cpp" startline="189" endline="209">GetHwnd</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpage_w_p_f_1afadaccaa0c077a1c859954f7eb9d1002" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pageWPF::pageWPF</definition>
+        <argsstring>()</argsstring>
+        <name>pageWPF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="31" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pageWPF::pageWPF</definition>
+        <argsstring>(int height, int width)</argsstring>
+        <name>pageWPF</name>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="32" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp" bodystart="10" bodyend="101"/>
+        <references refid="classpage_w_p_f_1a1e80254ea69f45220573812fc6e144af" compoundref="page_w_p_f_8cpp" startline="146" endline="153">ButtonClicked</references>
+        <references refid="classpage_w_p_f_1a29171b9aab7afd015048f0282834b8d2" compoundref="page_w_p_f_8cpp" startline="102" endline="109">CreateButton</references>
+        <references refid="classpage_w_p_f_1acd6d1138c5e772061942c944d0513444" compoundref="page_w_p_f_8cpp" startline="110" endline="115">CreateCombo</references>
+        <references refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" compoundref="page_w_p_f_8cpp" startline="132" endline="143">CreateLabel</references>
+        <references refid="classpage_w_p_f_1a265f028ace1dbca4978d955b4540e0f9" compoundref="page_w_p_f_8cpp" startline="123" endline="131">CreateMyItem</references>
+        <references refid="classpage_w_p_f_1a9e2d26d9f633545a18c32af0fc23c8b2" compoundref="page_w_p_f_8cpp" startline="116" endline="122">CreaTextBlock</references>
+        <references refid="classpage_w_p_f_1a2dee621a10a642a53b6cbb475cab43bd" compoundref="page_w_p_f_8h" startline="23">ID</references>
+        <references refid="classpage_w_p_f_1a156dae5b7b1d1259be1002c8812bfac4" compoundref="page_w_p_f_8h" startline="23">label1</references>
+        <references refid="classpage_w_p_f_1a83732eb2e58581126f3d138ec01dcfc4" compoundref="page_w_p_f_8h" startline="23">label2</references>
+        <references refid="classpage_w_p_f_1a848a65205c5fbdde210ba5f2ffc41945" compoundref="page_w_p_f_8h" startline="23">label3</references>
+        <references refid="classpage_w_p_f_1a603eab2dea013a530a684a1bf6fa93c5" compoundref="page_w_p_f_8h" startline="23">label4</references>
+        <references refid="classpage_w_p_f_1af8e7256e78f9dc45fdd5786e4ab2ef41" compoundref="page_w_p_f_8h" startline="23">label5</references>
+        <references refid="classpage_w_p_f_1af549f9ed3e55d68d7df84dda8dfceac1" compoundref="page_w_p_f_8h" startline="23">label6</references>
+        <references refid="classpage_w_p_f_1a4378989033e1592e39e4ac64162a2762" compoundref="page_w_p_f_8h" startline="23">label7</references>
+        <references refid="classpage_w_p_f_1a057e89b9dbb4fccc2bb84f30c35c83a5" compoundref="page_w_p_f_8h" startline="35">myButton</references>
+        <references refid="classpage_w_p_f_1afbebe4f5f5087506520cc4ffe84d2658" compoundref="page_w_p_f_8h" startline="36">myCombo</references>
+        <references refid="classpage_w_p_f_1aad53d8bc2d2daaeb40b838a71bafbea5" compoundref="page_w_p_f_8h" startline="40">myGrid</references>
+        <references refid="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" compoundref="page_w_p_f_8h" startline="37">myItem</references>
+        <references refid="classpage_w_p_f_1ad074cac30cf59d872d2566a57d9f2922" compoundref="page_w_p_f_8h" startline="41">myText</references>
+      </memberdef>
+      <memberdef kind="function" id="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Label</type>
+        <definition>Label pageWPF::CreateLabel</definition>
+        <argsstring>(int column, int row, String^text)</argsstring>
+        <name>CreateLabel</name>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="38" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp" bodystart="132" bodyend="143"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpage_w_p_f_1a1e80254ea69f45220573812fc6e144af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pageWPF::ButtonClicked</definition>
+        <argsstring>(Object^sender, RoutedEventArgs^args)</argsstring>
+        <name>ButtonClicked</name>
+        <param>
+          <type>Object^</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs^</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="39" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp" bodystart="146" bodyend="153"/>
+        <references refid="classpage_w_p_f_1afe529743ee93e8bf300735de3e14b0cf" compoundref="page_w_p_f_8h" startline="29">OnButtonClicked</references>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpage_w_p_f_1a29171b9aab7afd015048f0282834b8d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Button</type>
+        <definition>Button pageWPF::CreateButton</definition>
+        <argsstring>(int column, int row, String^text)</argsstring>
+        <name>CreateButton</name>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="43" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp" bodystart="102" bodyend="109"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpage_w_p_f_1acd6d1138c5e772061942c944d0513444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ComboBox</type>
+        <definition>ComboBox pageWPF::CreateCombo</definition>
+        <argsstring>(int column, int row)</argsstring>
+        <name>CreateCombo</name>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="44" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp" bodystart="110" bodyend="115"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpage_w_p_f_1a265f028ace1dbca4978d955b4540e0f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ComboBoxItem</type>
+        <definition>ComboBoxItem pageWPF::CreateMyItem</definition>
+        <argsstring>(String^name, String^text)</argsstring>
+        <name>CreateMyItem</name>
+        <param>
+          <type>String^</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>String^</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="45" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp" bodystart="123" bodyend="131"/>
+        <references refid="classpage_w_p_f_1afbebe4f5f5087506520cc4ffe84d2658" compoundref="page_w_p_f_8h" startline="36">myCombo</references>
+        <references refid="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" compoundref="page_w_p_f_8h" startline="37">myItem</references>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpage_w_p_f_1a9e2d26d9f633545a18c32af0fc23c8b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TextBox</type>
+        <definition>TextBox pageWPF::CreaTextBlock</definition>
+        <argsstring>(int column, int row)</argsstring>
+        <name>CreaTextBlock</name>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="46" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.cpp" bodystart="116" bodyend="122"/>
+        <referencedby refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" compoundref="page_w_p_f_8cpp" startline="10" endline="101">pageWPF</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>pageWPF</label>
+        <link refid="classpage_w_p_f"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Grid</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>pageWPF</label>
+        <link refid="classpage_w_p_f"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Grid</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="21" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/pageWPF.h" bodystart="21" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classpage_w_p_f_1a1e80254ea69f45220573812fc6e144af" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>ButtonClicked</name></member>
+      <member refid="classpage_w_p_f_1ae5af5800f7035c814b6521f4bc80a7df" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>ButtonClickHandler</name></member>
+      <member refid="classpage_w_p_f_1acd4d0310fa313bc9bbb44592bd246732" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>cancelButton</name></member>
+      <member refid="classpage_w_p_f_1a29171b9aab7afd015048f0282834b8d2" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>CreateButton</name></member>
+      <member refid="classpage_w_p_f_1acd6d1138c5e772061942c944d0513444" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>CreateCombo</name></member>
+      <member refid="classpage_w_p_f_1ae513dd94df8ebc835cb5af2725ea3de7" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>CreateLabel</name></member>
+      <member refid="classpage_w_p_f_1a265f028ace1dbca4978d955b4540e0f9" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>CreateMyItem</name></member>
+      <member refid="classpage_w_p_f_1a9e2d26d9f633545a18c32af0fc23c8b2" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>CreaTextBlock</name></member>
+      <member refid="classpage_w_p_f_1aa6ca49ba9ac7001a106f30ca3949807e" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>handle</name></member>
+      <member refid="classpage_w_p_f_1a2dee621a10a642a53b6cbb475cab43bd" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>ID</name></member>
+      <member refid="classpage_w_p_f_1a156dae5b7b1d1259be1002c8812bfac4" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>label1</name></member>
+      <member refid="classpage_w_p_f_1a83732eb2e58581126f3d138ec01dcfc4" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>label2</name></member>
+      <member refid="classpage_w_p_f_1a848a65205c5fbdde210ba5f2ffc41945" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>label3</name></member>
+      <member refid="classpage_w_p_f_1a603eab2dea013a530a684a1bf6fa93c5" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>label4</name></member>
+      <member refid="classpage_w_p_f_1af8e7256e78f9dc45fdd5786e4ab2ef41" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>label5</name></member>
+      <member refid="classpage_w_p_f_1af549f9ed3e55d68d7df84dda8dfceac1" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>label6</name></member>
+      <member refid="classpage_w_p_f_1a4378989033e1592e39e4ac64162a2762" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>label7</name></member>
+      <member refid="classpage_w_p_f_1a5cfb9bea333ab1723a228686023349ac" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>label8</name></member>
+      <member refid="classpage_w_p_f_1a057e89b9dbb4fccc2bb84f30c35c83a5" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>myButton</name></member>
+      <member refid="classpage_w_p_f_1afbebe4f5f5087506520cc4ffe84d2658" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>myCombo</name></member>
+      <member refid="classpage_w_p_f_1aad53d8bc2d2daaeb40b838a71bafbea5" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>myGrid</name></member>
+      <member refid="classpage_w_p_f_1a619cf55580f2d0ecaea7c8bef65efa49" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>myItem</name></member>
+      <member refid="classpage_w_p_f_1ad9e7ef5320265056bbeb733d71244961" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>myList</name></member>
+      <member refid="classpage_w_p_f_1a0a673735d50f8b3842ecfd9c14155d64" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>myScroll</name></member>
+      <member refid="classpage_w_p_f_1ad074cac30cf59d872d2566a57d9f2922" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>myText</name></member>
+      <member refid="classpage_w_p_f_1ac2159df5778a771d1caf8305289c3be8" prot="private" virt="non-virtual"><scope>pageWPF</scope><name>okayButton</name></member>
+      <member refid="classpage_w_p_f_1afe529743ee93e8bf300735de3e14b0cf" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>OnButtonClicked</name></member>
+      <member refid="classpage_w_p_f_1afadaccaa0c077a1c859954f7eb9d1002" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>pageWPF</name></member>
+      <member refid="classpage_w_p_f_1a07d4d33b100464d94d50192b44987c0e" prot="public" virt="non-virtual"><scope>pageWPF</scope><name>pageWPF</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,716 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_w_p_fcontrol_d_b_8cpp" kind="file">
+    <compoundname>WPFcontrolDB.cpp</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes refid="_w_p_fcontrol_d_b_8h" local="yes">WPFcontrolDB.h</includes>
+    <incdepgraph>
+      <node id="65">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>windows.h</label>
+      </node>
+      <node id="69">
+        <label>stdlib.h</label>
+      </node>
+      <node id="67">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="75">
+        <label>pageWPF.h</label>
+        <link refid="page_w_p_f_8h"/>
+        <childnode refid="65" relation="include">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>WPFcontrolDB.h</label>
+        <link refid="_w_p_fcontrol_d_b_8h"/>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>malloc.h</label>
+      </node>
+      <node id="66">
+        <label>targetver.h</label>
+        <link refid="targetver_8h"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>memory.h</label>
+      </node>
+      <node id="76">
+        <label>string.h</label>
+      </node>
+      <node id="72">
+        <label>tchar.h</label>
+      </node>
+      <node id="74">
+        <label>resource.h</label>
+        <link refid="resource_8h"/>
+      </node>
+      <node id="64">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp</label>
+        <link refid="WPFcontrolDB.cpp"/>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_system_1_1_runtime">System::Runtime</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_w_p_fcontrol_d_b_8cpp_1a2b68559d692760680c326428841254d1" prot="public" static="no">
+        <name>MAX_LOADSTRING</name>
+        <initializer>100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="12" column="9" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="12" bodyend="-1"/>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1aaf5e7f94cc186f55d373ad6a6d311bcb" compoundref="_w_p_fcontrol_d_b_8cpp" startline="25" endline="59">_tWinMain</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" prot="public" static="no" mutable="no">
+        <type>HINSTANCE</type>
+        <definition>HINSTANCE hInst</definition>
+        <argsstring></argsstring>
+        <name>hInst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="14" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="14" bodyend="-1"/>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1a40479ac597099ddf16dd650669521846" compoundref="_w_p_fcontrol_d_b_8cpp" startline="210" endline="234">CreateAHorizontalScrollBar</referencedby>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1a33f396d8f6fa56cde7d0ef537954011a" compoundref="_w_p_fcontrol_d_b_8cpp" startline="236" endline="255">CreateDataDisplay</referencedby>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1a5f77d4e3e5569ff9d236463fd80ebe28" compoundref="_w_p_fcontrol_d_b_8cpp" startline="94" endline="117">InitInstance</referencedby>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" compoundref="_w_p_fcontrol_d_b_8cpp" startline="127" endline="168">WndProc</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_w_p_fcontrol_d_b_8cpp_1adee9884b69dfd657d7bca6a047f122cb" prot="public" static="no" mutable="no">
+        <type>WCHAR</type>
+        <definition>WCHAR szTitle[MAX_LOADSTRING]</definition>
+        <argsstring>[MAX_LOADSTRING]</argsstring>
+        <name>szTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="15" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="15" bodyend="-1"/>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1aaf5e7f94cc186f55d373ad6a6d311bcb" compoundref="_w_p_fcontrol_d_b_8cpp" startline="25" endline="59">_tWinMain</referencedby>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1a5f77d4e3e5569ff9d236463fd80ebe28" compoundref="_w_p_fcontrol_d_b_8cpp" startline="94" endline="117">InitInstance</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_w_p_fcontrol_d_b_8cpp_1ac849efb3cbdf5831b7046d4d7214a704" prot="public" static="no" mutable="no">
+        <type>WCHAR</type>
+        <definition>WCHAR szWindowClass[MAX_LOADSTRING]</definition>
+        <argsstring>[MAX_LOADSTRING]</argsstring>
+        <name>szWindowClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="16" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="16" bodyend="-1"/>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1aaf5e7f94cc186f55d373ad6a6d311bcb" compoundref="_w_p_fcontrol_d_b_8cpp" startline="25" endline="59">_tWinMain</referencedby>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1a5f77d4e3e5569ff9d236463fd80ebe28" compoundref="_w_p_fcontrol_d_b_8cpp" startline="94" endline="117">InitInstance</referencedby>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1aa0d0c9beb94350f8eac8fc4026a65375" compoundref="_w_p_fcontrol_d_b_8cpp" startline="65" endline="82">MyRegisterClass</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_w_p_fcontrol_d_b_8cpp_1a1db14c077868820961651eee69cc9867" prot="public" static="no" mutable="no">
+        <type>HWND</type>
+        <definition>HWND wpfHwnd</definition>
+        <argsstring></argsstring>
+        <name>wpfHwnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="22" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="22" bodyend="-1"/>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" compoundref="_w_p_fcontrol_d_b_8cpp" startline="127" endline="168">WndProc</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8cpp_1aa0d0c9beb94350f8eac8fc4026a65375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ATOM</type>
+        <definition>ATOM MyRegisterClass</definition>
+        <argsstring>(HINSTANCE hInstance)</argsstring>
+        <name>MyRegisterClass</name>
+        <param>
+          <type>HINSTANCE</type>
+          <declname>hInstance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="18" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="65" bodyend="82"/>
+        <references refid="resource_8h_1a46b30b9641237723a40b0d6366d15368" compoundref="resource_8h" startline="15">IDC_WPFCONTROLDB</references>
+        <references refid="resource_8h_1a861a8cb71616b4615a5823bcf4bff6e3" compoundref="resource_8h" startline="14">IDI_SMALL</references>
+        <references refid="resource_8h_1a38762899c8907506d148f0911cf01a19" compoundref="resource_8h" startline="13">IDI_WPFCONTROLDB</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1ac849efb3cbdf5831b7046d4d7214a704" compoundref="_w_p_fcontrol_d_b_8cpp" startline="16">szWindowClass</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" compoundref="_w_p_fcontrol_d_b_8cpp" startline="127" endline="168">WndProc</references>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1aaf5e7f94cc186f55d373ad6a6d311bcb" compoundref="_w_p_fcontrol_d_b_8cpp" startline="25" endline="59">_tWinMain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8cpp_1a5f77d4e3e5569ff9d236463fd80ebe28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BOOL</type>
+        <definition>BOOL InitInstance</definition>
+        <argsstring>(HINSTANCE, int)</argsstring>
+        <name>InitInstance</name>
+        <param>
+          <type>HINSTANCE</type>
+          <defname>hInstance</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>nCmdShow</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="19" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="94" bodyend="117"/>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" compoundref="_w_p_fcontrol_d_b_8cpp" startline="14">hInst</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1adee9884b69dfd657d7bca6a047f122cb" compoundref="_w_p_fcontrol_d_b_8cpp" startline="15">szTitle</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1ac849efb3cbdf5831b7046d4d7214a704" compoundref="_w_p_fcontrol_d_b_8cpp" startline="16">szWindowClass</references>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1aaf5e7f94cc186f55d373ad6a6d311bcb" compoundref="_w_p_fcontrol_d_b_8cpp" startline="25" endline="59">_tWinMain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LRESULT CALLBACK</type>
+        <definition>LRESULT CALLBACK WndProc</definition>
+        <argsstring>(HWND, UINT, WPARAM, LPARAM)</argsstring>
+        <name>WndProc</name>
+        <param>
+          <type>HWND</type>
+          <defname>hWnd</defname>
+        </param>
+        <param>
+          <type>UINT</type>
+          <defname>message</defname>
+        </param>
+        <param>
+          <type>WPARAM</type>
+          <defname>wParam</defname>
+        </param>
+        <param>
+          <type>LPARAM</type>
+          <defname>lParam</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="20" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="127" bodyend="168"/>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a5873af2ee357a48c39cdd824f51c1c9c" compoundref="_w_p_fcontrol_d_b_8cpp" startline="170" endline="186">About</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a33f396d8f6fa56cde7d0ef537954011a" compoundref="_w_p_fcontrol_d_b_8cpp" startline="236" endline="255">CreateDataDisplay</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1aab5e179aff8a8cf063032c03db9734bc" compoundref="_w_p_fcontrol_d_b_8cpp" startline="189" endline="209">GetHwnd</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" compoundref="_w_p_fcontrol_d_b_8cpp" startline="14">hInst</references>
+        <references refid="resource_8h_1a77a06326b569136edbb6c766bc98c33c" compoundref="resource_8h" startline="10">IDD_ABOUTBOX</references>
+        <references refid="resource_8h_1a589e0105bc3e8681893dbf51210ceeec" compoundref="resource_8h" startline="11">IDM_ABOUT</references>
+        <references refid="resource_8h_1a79aeed168a959b22b32169e25f8c1f4d" compoundref="resource_8h" startline="12">IDM_EXIT</references>
+        <references refid="_w_p_fcontrol_d_b_8h_1a04ac63459343f4b03b918f0496fdde7e" compoundref="_w_p_fcontrol_d_b_8h" startline="15">rect</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a1db14c077868820961651eee69cc9867" compoundref="_w_p_fcontrol_d_b_8cpp" startline="22">wpfHwnd</references>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1aa0d0c9beb94350f8eac8fc4026a65375" compoundref="_w_p_fcontrol_d_b_8cpp" startline="65" endline="82">MyRegisterClass</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8cpp_1a5873af2ee357a48c39cdd824f51c1c9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>INT_PTR CALLBACK</type>
+        <definition>INT_PTR CALLBACK About</definition>
+        <argsstring>(HWND, UINT, WPARAM, LPARAM)</argsstring>
+        <name>About</name>
+        <param>
+          <type>HWND</type>
+          <defname>hDlg</defname>
+        </param>
+        <param>
+          <type>UINT</type>
+          <defname>message</defname>
+        </param>
+        <param>
+          <type>WPARAM</type>
+          <defname>wParam</defname>
+        </param>
+        <param>
+          <type>LPARAM</type>
+          <defname>lParam</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="21" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="170" bodyend="186"/>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" compoundref="_w_p_fcontrol_d_b_8cpp" startline="127" endline="168">WndProc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8cpp_1aaf5e7f94cc186f55d373ad6a6d311bcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int APIENTRY</type>
+        <definition>int APIENTRY _tWinMain</definition>
+        <argsstring>(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow)</argsstring>
+        <name>_tWinMain</name>
+        <param>
+          <type>HINSTANCE</type>
+          <declname>hInstance</declname>
+        </param>
+        <param>
+          <type>HINSTANCE</type>
+          <declname>hPrevInstance</declname>
+        </param>
+        <param>
+          <type>LPTSTR</type>
+          <declname>lpCmdLine</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nCmdShow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="25" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="25" bodyend="59"/>
+        <references refid="resource_8h_1a46b30b9641237723a40b0d6366d15368" compoundref="resource_8h" startline="15">IDC_WPFCONTROLDB</references>
+        <references refid="resource_8h_1a636c9aea2a8d16b73e43df39b3e0e7bd" compoundref="resource_8h" startline="6">IDS_APP_TITLE</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a5f77d4e3e5569ff9d236463fd80ebe28" compoundref="_w_p_fcontrol_d_b_8cpp" startline="94" endline="117">InitInstance</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a2b68559d692760680c326428841254d1" compoundref="_w_p_fcontrol_d_b_8cpp" startline="12">MAX_LOADSTRING</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1aa0d0c9beb94350f8eac8fc4026a65375" compoundref="_w_p_fcontrol_d_b_8cpp" startline="65" endline="82">MyRegisterClass</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1adee9884b69dfd657d7bca6a047f122cb" compoundref="_w_p_fcontrol_d_b_8cpp" startline="15">szTitle</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1ac849efb3cbdf5831b7046d4d7214a704" compoundref="_w_p_fcontrol_d_b_8cpp" startline="16">szWindowClass</references>
+      </memberdef>
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8cpp_1aab5e179aff8a8cf063032c03db9734bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>HWND</type>
+        <definition>HWND GetHwnd</definition>
+        <argsstring>(HWND parent, int x, int y, int width, int height)</argsstring>
+        <name>GetHwnd</name>
+        <param>
+          <type>HWND</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="189" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="189" bodyend="209"/>
+        <references refid="classpage_w_p_f_1ae5af5800f7035c814b6521f4bc80a7df">pageWPF::ButtonClickHandler</references>
+        <references refid="class_w_p_f_page_host_1af23c7cac441eeeb886b5bbb4c050f8ee" compoundref="_w_p_fcontrol_d_b_8h" startline="11">WPFPageHost::hostedPage</references>
+        <references refid="classpage_w_p_f_1afe529743ee93e8bf300735de3e14b0cf" compoundref="page_w_p_f_8h" startline="29">pageWPF::OnButtonClicked</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a051ee1e50c5383338789709bd8d3a582" compoundref="_w_p_fcontrol_d_b_8cpp" startline="257" endline="274">WPFButtonClicked</references>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" compoundref="_w_p_fcontrol_d_b_8cpp" startline="127" endline="168">WndProc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8cpp_1a40479ac597099ddf16dd650669521846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>HWND</type>
+        <definition>HWND CreateAHorizontalScrollBar</definition>
+        <argsstring>(HWND hwndParent, int sbHeight)</argsstring>
+        <name>CreateAHorizontalScrollBar</name>
+        <param>
+          <type>HWND</type>
+          <declname>hwndParent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sbHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="210" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="210" bodyend="234"/>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" compoundref="_w_p_fcontrol_d_b_8cpp" startline="14">hInst</references>
+        <references refid="_w_p_fcontrol_d_b_8h_1a04ac63459343f4b03b918f0496fdde7e" compoundref="_w_p_fcontrol_d_b_8h" startline="15">rect</references>
+      </memberdef>
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8cpp_1a33f396d8f6fa56cde7d0ef537954011a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CreateDataDisplay</definition>
+        <argsstring>(HWND hWnd, int top, int left, int width)</argsstring>
+        <name>CreateDataDisplay</name>
+        <param>
+          <type>HWND</type>
+          <declname>hWnd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="236" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="236" bodyend="255"/>
+        <references refid="_w_p_fcontrol_d_b_8h_1a760c546baa9be2edb7da36621868ff58" compoundref="_w_p_fcontrol_d_b_8h" startline="18">dataDisplayLabel</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" compoundref="_w_p_fcontrol_d_b_8cpp" startline="14">hInst</references>
+        <references refid="_w_p_fcontrol_d_b_8h_1a93b9dcf2f3172b8e34e1095ed89e8040" compoundref="_w_p_fcontrol_d_b_8h" startline="18">nameLabel</references>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" compoundref="_w_p_fcontrol_d_b_8cpp" startline="127" endline="168">WndProc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8cpp_1a051ee1e50c5383338789709bd8d3a582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WPFButtonClicked</definition>
+        <argsstring>(Object^sender, DBPageEventArgs^args)</argsstring>
+        <name>WPFButtonClicked</name>
+        <param>
+          <type>Object^</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_page_event_args" kindref="compound">DBPageEventArgs</ref>^</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" line="257" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="257" bodyend="274"/>
+        <references refid="class_w_p_f_page_host_1af23c7cac441eeeb886b5bbb4c050f8ee" compoundref="_w_p_fcontrol_d_b_8h" startline="11">WPFPageHost::hostedPage</references>
+        <references refid="class_d_b_page_event_args_1aae3867279823d2ddb2b52dc994fa07e4" compoundref="page_w_p_f_8h" startline="18">DBPageEventArgs::isOkay</references>
+        <references refid="classpage_w_p_f_1ad074cac30cf59d872d2566a57d9f2922" compoundref="page_w_p_f_8h" startline="41">pageWPF::myText</references>
+        <references refid="_w_p_fcontrol_d_b_8h_1a93b9dcf2f3172b8e34e1095ed89e8040" compoundref="_w_p_fcontrol_d_b_8h" startline="18">nameLabel</references>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1aab5e179aff8a8cf063032c03db9734bc" compoundref="_w_p_fcontrol_d_b_8cpp" startline="189" endline="209">GetHwnd</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Windows;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Windows::Controls;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Windows::Media;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">System::Runtime;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_w_p_fcontrol_d_b_8h" kindref="compound">WPFcontrolDB.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;gcroot.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="_w_p_fcontrol_d_b_8cpp_1a2b68559d692760680c326428841254d1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_LOADSTRING<sp/>100</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="comment">//<sp/>Globale<sp/>Variablen:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" refkind="member"><highlight class="normal">HINSTANCE<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" kindref="member">hInst</ref>;<sp/></highlight><highlight class="comment">//<sp/>Aktuelle<sp/>Instanz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_w_p_fcontrol_d_b_8cpp_1adee9884b69dfd657d7bca6a047f122cb" refkind="member"><highlight class="normal">WCHAR<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1adee9884b69dfd657d7bca6a047f122cb" kindref="member">szTitle</ref>[<ref refid="_w_p_fcontrol_d_b_8cpp_1a2b68559d692760680c326428841254d1" kindref="member">MAX_LOADSTRING</ref>];<sp/></highlight><highlight class="comment">//<sp/>Titelleistentext</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_w_p_fcontrol_d_b_8cpp_1ac849efb3cbdf5831b7046d4d7214a704" refkind="member"><highlight class="normal">WCHAR<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1ac849efb3cbdf5831b7046d4d7214a704" kindref="member">szWindowClass</ref>[<ref refid="_w_p_fcontrol_d_b_8cpp_1a2b68559d692760680c326428841254d1" kindref="member">MAX_LOADSTRING</ref>];<sp/></highlight><highlight class="comment">//<sp/>Klassenname<sp/>des<sp/>Hauptfensters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Vorwärtsdeklarationen<sp/>der<sp/>in<sp/>diesem<sp/>Codemodul<sp/>enthaltenen<sp/>Funktionen:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">ATOM<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1aa0d0c9beb94350f8eac8fc4026a65375" kindref="member">MyRegisterClass</ref>(HINSTANCE<sp/>hInstance);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">BOOL<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a5f77d4e3e5569ff9d236463fd80ebe28" kindref="member">InitInstance</ref>(HINSTANCE,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">LRESULT<sp/>CALLBACK<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" kindref="member">WndProc</ref>(HWND,<sp/>UINT,<sp/>WPARAM,<sp/>LPARAM);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">INT_PTR<sp/>CALLBACK<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a5873af2ee357a48c39cdd824f51c1c9c" kindref="member">About</ref>(HWND,<sp/>UINT,<sp/>WPARAM,<sp/>LPARAM);</highlight></codeline>
+<codeline lineno="22" refid="_w_p_fcontrol_d_b_8cpp_1a1db14c077868820961651eee69cc9867" refkind="member"><highlight class="normal">HWND<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a1db14c077868820961651eee69cc9867" kindref="member">wpfHwnd</ref>;<sp/></highlight><highlight class="comment">//The<sp/>hwnd<sp/>associated<sp/>with<sp/>the<sp/>hosted<sp/>WPF<sp/>page</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">[System::STAThreadAttribute]<sp/></highlight><highlight class="comment">//Needs<sp/>to<sp/>be<sp/>an<sp/>STA<sp/>thread<sp/>to<sp/>play<sp/>nicely<sp/>with<sp/>WPF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="_w_p_fcontrol_d_b_8cpp_1aaf5e7f94cc186f55d373ad6a6d311bcb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>APIENTRY<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1aaf5e7f94cc186f55d373ad6a6d311bcb" kindref="member">_tWinMain</ref>(HINSTANCE<sp/>hInstance,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>HINSTANCE<sp/>hPrevInstance,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>LPTSTR<sp/><sp/><sp/><sp/>lpCmdLine,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nCmdShow)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>UNREFERENCED_PARAMETER(hPrevInstance);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>UNREFERENCED_PARAMETER(lpCmdLine);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>Hier<sp/>Code<sp/>einfügen.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Globale<sp/>Zeichenfolgen<sp/>initialisieren</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>LoadStringW(hInstance,<sp/><ref refid="resource_8h_1a636c9aea2a8d16b73e43df39b3e0e7bd" kindref="member">IDS_APP_TITLE</ref>,<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1adee9884b69dfd657d7bca6a047f122cb" kindref="member">szTitle</ref>,<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a2b68559d692760680c326428841254d1" kindref="member">MAX_LOADSTRING</ref>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>LoadStringW(hInstance,<sp/><ref refid="resource_8h_1a46b30b9641237723a40b0d6366d15368" kindref="member">IDC_WPFCONTROLDB</ref>,<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1ac849efb3cbdf5831b7046d4d7214a704" kindref="member">szWindowClass</ref>,<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a2b68559d692760680c326428841254d1" kindref="member">MAX_LOADSTRING</ref>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1aa0d0c9beb94350f8eac8fc4026a65375" kindref="member">MyRegisterClass</ref>(hInstance);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Anwendungsinitialisierung<sp/>ausführen:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="_w_p_fcontrol_d_b_8cpp_1a5f77d4e3e5569ff9d236463fd80ebe28" kindref="member">InitInstance</ref>(hInstance,<sp/>nCmdShow))</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FALSE;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>HACCEL<sp/>hAccelTable<sp/>=<sp/>LoadAccelerators(hInstance,<sp/>MAKEINTRESOURCE(<ref refid="resource_8h_1a46b30b9641237723a40b0d6366d15368" kindref="member">IDC_WPFCONTROLDB</ref>));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>MSG<sp/>msg;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Hauptnachrichtenschleife:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(GetMessage(&amp;msg,<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>0,<sp/>0))</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!TranslateAccelerator(msg.hwnd,<sp/>hAccelTable,<sp/>&amp;msg))</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TranslateMessage(&amp;msg);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DispatchMessage(&amp;msg);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)msg.wParam;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>FUNKTION:<sp/>MyRegisterClass()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ZWECK:<sp/>Registriert<sp/>die<sp/>Fensterklasse.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="_w_p_fcontrol_d_b_8cpp_1aa0d0c9beb94350f8eac8fc4026a65375" refkind="member"><highlight class="normal">ATOM<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1aa0d0c9beb94350f8eac8fc4026a65375" kindref="member">MyRegisterClass</ref>(HINSTANCE<sp/>hInstance)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>WNDCLASSEXW<sp/>wcex;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>wcex.cbSize<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(WNDCLASSEX);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>wcex.style<sp/>=<sp/>CS_HREDRAW<sp/>|<sp/>CS_VREDRAW;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>wcex.lpfnWndProc<sp/>=<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" kindref="member">WndProc</ref>;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>wcex.cbClsExtra<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>wcex.cbWndExtra<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>wcex.hInstance<sp/>=<sp/>hInstance;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>wcex.hIcon<sp/>=<sp/>LoadIcon(hInstance,<sp/>MAKEINTRESOURCE(<ref refid="resource_8h_1a38762899c8907506d148f0911cf01a19" kindref="member">IDI_WPFCONTROLDB</ref>));</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>wcex.hCursor<sp/>=<sp/>LoadCursor(</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>IDC_ARROW);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>wcex.hbrBackground<sp/>=<sp/>(HBRUSH)(COLOR_WINDOW<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>wcex.lpszMenuName<sp/>=<sp/>MAKEINTRESOURCEW(<ref refid="resource_8h_1a46b30b9641237723a40b0d6366d15368" kindref="member">IDC_WPFCONTROLDB</ref>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>wcex.lpszClassName<sp/>=<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1ac849efb3cbdf5831b7046d4d7214a704" kindref="member">szWindowClass</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>wcex.hIconSm<sp/>=<sp/>LoadIcon(wcex.hInstance,<sp/>MAKEINTRESOURCE(<ref refid="resource_8h_1a861a8cb71616b4615a5823bcf4bff6e3" kindref="member">IDI_SMALL</ref>));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RegisterClassExW(&amp;wcex);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>FUNKTION:<sp/>InitInstance(HINSTANCE,<sp/>int)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ZWECK:<sp/>Speichert<sp/>das<sp/>Instanzenhandle<sp/>und<sp/>erstellt<sp/>das<sp/>Hauptfenster.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">//<sp/>KOMMENTARE:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//<sp/>In<sp/>dieser<sp/>Funktion<sp/>wird<sp/>das<sp/>Instanzenhandle<sp/>in<sp/>einer<sp/>globalen<sp/>Variablen<sp/>gespeichert,<sp/>und<sp/>das</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Hauptprogrammfenster<sp/>wird<sp/>erstellt<sp/>und<sp/>angezeigt.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="_w_p_fcontrol_d_b_8cpp_1a5f77d4e3e5569ff9d236463fd80ebe28" refkind="member"><highlight class="normal">BOOL<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a5f77d4e3e5569ff9d236463fd80ebe28" kindref="member">InitInstance</ref>(HINSTANCE<sp/>hInstance,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nCmdShow)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" kindref="member">hInst</ref><sp/>=<sp/>hInstance;<sp/></highlight><highlight class="comment">//<sp/>Instanzenhandle<sp/>in<sp/>der<sp/>globalen<sp/>Variablen<sp/>speichern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>HWND<sp/>hWnd<sp/>=<sp/>CreateWindowW(<ref refid="_w_p_fcontrol_d_b_8cpp_1ac849efb3cbdf5831b7046d4d7214a704" kindref="member">szWindowClass</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>global<sp/>string<sp/>containing<sp/>name<sp/>of<sp/>window<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1adee9884b69dfd657d7bca6a047f122cb" kindref="member">szTitle</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>global<sp/>string<sp/>containing<sp/>title<sp/>bar<sp/>text</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WS_OVERLAPPEDWINDOW,<sp/><sp/></highlight><highlight class="comment">//<sp/>window<sp/>styles</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CW_USEDEFAULT,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>horizontal<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CW_USEDEFAULT,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>vertical<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CW_USEDEFAULT,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>width</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CW_USEDEFAULT,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>height</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HWND)NULL,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>no<sp/>parent<sp/>for<sp/>overlapped<sp/>windows</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HMENU)NULL,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>use<sp/>the<sp/>window<sp/>class<sp/>menu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hInstance,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>global<sp/>instance<sp/>handle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(PVOID)NULL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>pointer<sp/>not<sp/>needed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!hWnd)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FALSE;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>ShowWindow(hWnd,<sp/>nCmdShow);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>UpdateWindow(hWnd);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">//<sp/>FUNKTION:<sp/>WndProc(HWND,<sp/>UINT,<sp/>WPARAM,<sp/>LPARAM)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ZWECK:<sp/>Verarbeitet<sp/>Meldungen<sp/>vom<sp/>Hauptfenster.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WM_COMMAND<sp/>-<sp/>Verarbeiten<sp/>des<sp/>Anwendungsmenüs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WM_PAINT<sp/>-<sp/>Darstellen<sp/>des<sp/>Hauptfensters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WM_DESTROY<sp/>-<sp/>Ausgeben<sp/>einer<sp/>Beendenmeldung<sp/>und<sp/>zurückkehren</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" refkind="member"><highlight class="normal">LRESULT<sp/>CALLBACK<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" kindref="member">WndProc</ref>(HWND<sp/>hWnd,<sp/>UINT<sp/>message,<sp/>WPARAM<sp/>wParam,<sp/>LPARAM<sp/>lParam)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(message)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>WM_CREATE:</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetClientRect(hWnd,<sp/>&amp;<ref refid="_w_p_fcontrol_d_b_8h_1a04ac63459343f4b03b918f0496fdde7e" kindref="member">rect</ref>);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a1db14c077868820961651eee69cc9867" kindref="member">wpfHwnd</ref><sp/>=<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1aab5e179aff8a8cf063032c03db9734bc" kindref="member">GetHwnd</ref>(hWnd,<sp/><ref refid="_w_p_fcontrol_d_b_8h_1a04ac63459343f4b03b918f0496fdde7e" kindref="member">rect</ref>.left<sp/>+<sp/>10,<sp/>10,<sp/>600,<sp/>600);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a33f396d8f6fa56cde7d0ef537954011a" kindref="member">CreateDataDisplay</ref>(hWnd,<sp/>275,<sp/><ref refid="_w_p_fcontrol_d_b_8h_1a04ac63459343f4b03b918f0496fdde7e" kindref="member">rect</ref>.right<sp/>-<sp/>375,<sp/>375);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>WM_COMMAND:</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>wmId<sp/>=<sp/>LOWORD(wParam);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Menüauswahl<sp/>bearbeiten:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(wmId)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="resource_8h_1a589e0105bc3e8681893dbf51210ceeec" kindref="member">IDM_ABOUT</ref>:</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DialogBox(<ref refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" kindref="member">hInst</ref>,<sp/>MAKEINTRESOURCE(<ref refid="resource_8h_1a77a06326b569136edbb6c766bc98c33c" kindref="member">IDD_ABOUTBOX</ref>),<sp/>hWnd,<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a5873af2ee357a48c39cdd824f51c1c9c" kindref="member">About</ref>);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="resource_8h_1a79aeed168a959b22b32169e25f8c1f4d" kindref="member">IDM_EXIT</ref>:</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DestroyWindow(hWnd);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DefWindowProc(hWnd,<sp/>message,<sp/>wParam,<sp/>lParam);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>WM_PAINT:</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PAINTSTRUCT<sp/>ps;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HDC<sp/>hdc<sp/>=<sp/>BeginPaint(hWnd,<sp/>&amp;ps);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO:<sp/>Zeichencode,<sp/>der<sp/>hdc<sp/>verwendet,<sp/>hier<sp/>einfügen...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EndPaint(hWnd,<sp/>&amp;ps);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>WM_DESTROY:</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PostQuitMessage(0);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DefWindowProc(hWnd,<sp/>message,<sp/>wParam,<sp/>lParam);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Meldungshandler<sp/>für<sp/>Infofeld.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="_w_p_fcontrol_d_b_8cpp_1a5873af2ee357a48c39cdd824f51c1c9c" refkind="member"><highlight class="normal">INT_PTR<sp/>CALLBACK<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a5873af2ee357a48c39cdd824f51c1c9c" kindref="member">About</ref>(HWND<sp/>hDlg,<sp/>UINT<sp/>message,<sp/>WPARAM<sp/>wParam,<sp/>LPARAM<sp/>lParam)</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>UNREFERENCED_PARAMETER(lParam);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(message)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>WM_INITDIALOG:</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(INT_PTR)TRUE;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>WM_COMMAND:</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(LOWORD(wParam)<sp/>==<sp/>IDOK<sp/>||<sp/>LOWORD(wParam)<sp/>==<sp/>IDCANCEL)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EndDialog(hDlg,<sp/>LOWORD(wParam));</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(INT_PTR)TRUE;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(INT_PTR)FALSE;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="class_w_p_f_page_host_1af20e92f172eb4ad3942f37e0c0c94c32" refkind="member"><highlight class="normal"><ref refid="class_w_p_f_page_host_1af20e92f172eb4ad3942f37e0c0c94c32" kindref="member">WPFPageHost::WPFPageHost</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="189" refid="_w_p_fcontrol_d_b_8h_1aab5e179aff8a8cf063032c03db9734bc" refkind="member"><highlight class="normal">HWND<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1aab5e179aff8a8cf063032c03db9734bc" kindref="member">GetHwnd</ref>(HWND<sp/>parent,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>System::Windows::Interop::HwndSourceParameters^<sp/>sourceParams<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>System::Windows::Interop::HwndSourceParameters(</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;hi&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>NAME</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>sourceParams-&gt;PositionX<sp/>=<sp/>x;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>sourceParams-&gt;PositionY<sp/>=<sp/>y;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>sourceParams-&gt;Height<sp/>=<sp/>height;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>sourceParams-&gt;Width<sp/>=<sp/>width;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>sourceParams-&gt;ParentWindow<sp/>=<sp/>IntPtr(parent);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>sourceParams-&gt;WindowStyle<sp/>=<sp/>WS_VISIBLE<sp/>|<sp/>WS_CHILD;<sp/></highlight><highlight class="comment">//<sp/>style</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>System::Windows::Interop::HwndSource^<sp/>source<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/>System::Windows::Interop::HwndSource(*sourceParams);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f" kindref="compound">pageWPF</ref><sp/>^myPage<sp/>=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/><ref refid="classpage_w_p_f" kindref="compound">pageWPF</ref>(width,<sp/>height);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Assign<sp/>a<sp/>reference<sp/>to<sp/>the<sp/>WPF<sp/>page<sp/>and<sp/>a<sp/>set<sp/>of<sp/>UI<sp/>properties<sp/>to<sp/>a<sp/>set<sp/>of<sp/>static<sp/>properties<sp/>in<sp/>a<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//that<sp/>is<sp/>designed<sp/>for<sp/>that<sp/>purpose.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_w_p_f_page_host_1af23c7cac441eeeb886b5bbb4c050f8ee" kindref="member">WPFPageHost::hostedPage</ref><sp/>=<sp/>myPage;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>myPage-&gt;<ref refid="classpage_w_p_f_1afe529743ee93e8bf300735de3e14b0cf" kindref="member">OnButtonClicked</ref><sp/>+=<sp/></highlight><highlight class="keyword">gcnew</highlight><highlight class="normal"><sp/><ref refid="classpage_w_p_f_1ae5af5800f7035c814b6521f4bc80a7df" kindref="member">pageWPF::ButtonClickHandler</ref>(<ref refid="_w_p_fcontrol_d_b_8cpp_1a051ee1e50c5383338789709bd8d3a582" kindref="member">WPFButtonClicked</ref>);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>source-&gt;RootVisual<sp/>=<sp/>myPage;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(HWND)source-&gt;Handle.ToPointer();</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="210" refid="_w_p_fcontrol_d_b_8h_1a40479ac597099ddf16dd650669521846" refkind="member"><highlight class="normal">HWND<sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a40479ac597099ddf16dd650669521846" kindref="member">CreateAHorizontalScrollBar</ref>(HWND<sp/>hwndParent,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sbHeight)</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>RECT<sp/><ref refid="_w_p_fcontrol_d_b_8h_1a04ac63459343f4b03b918f0496fdde7e" kindref="member">rect</ref>;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>dimensions<sp/>of<sp/>the<sp/>parent<sp/>window&apos;s<sp/>client<sp/>area;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!GetClientRect(hwndParent,<sp/>&amp;rect))</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>the<sp/>scroll<sp/>bar.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(CreateWindowEx(</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>no<sp/>extended<sp/>styles</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>L</highlight><highlight class="stringliteral">&quot;SCROLLBAR&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>scroll<sp/>bar<sp/>control<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(PTSTR)NULL,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>no<sp/>window<sp/>text</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WS_CHILD<sp/>|<sp/>WS_VISIBLE<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>window<sp/>styles</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>SBS_HORZ,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>horizontal<sp/>scroll<sp/>bar<sp/>style</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rect.left,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>horizontal<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rect.bottom,<sp/></highlight><highlight class="comment">//<sp/>vertical<sp/>position</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rect.right,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>width<sp/>of<sp/>the<sp/>scroll<sp/>bar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sbHeight,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>height<sp/>of<sp/>the<sp/>scroll<sp/>bar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hwndParent,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>handle<sp/>to<sp/>main<sp/>window</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HMENU)NULL,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>no<sp/>menu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" kindref="member">hInst</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>instance<sp/>owning<sp/>this<sp/>window</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(PVOID)NULL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>pointer<sp/>not<sp/>needed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>));</highlight></codeline>
+<codeline lineno="234"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="_w_p_fcontrol_d_b_8h_1a33f396d8f6fa56cde7d0ef537954011a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a33f396d8f6fa56cde7d0ef537954011a" kindref="member">CreateDataDisplay</ref>(HWND<sp/>hWnd,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>top,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>left,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width)</highlight></codeline>
+<codeline lineno="237"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_w_p_fcontrol_d_b_8h_1a760c546baa9be2edb7da36621868ff58" kindref="member">dataDisplayLabel</ref><sp/>=<sp/>CreateWindowEx(0,<sp/>L</highlight><highlight class="stringliteral">&quot;static&quot;</highlight><highlight class="normal">,<sp/>L</highlight><highlight class="stringliteral">&quot;Data<sp/>From<sp/>WPF<sp/>Control&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WS_CHILD<sp/>|<sp/>WS_VISIBLE<sp/>|<sp/>SS_LEFT,</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>left,<sp/>top<sp/>+<sp/>25,</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>width,<sp/>25,</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hWnd,</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HMENU)1,</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" kindref="member">hInst</ref>,</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NULL);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_w_p_fcontrol_d_b_8h_1a93b9dcf2f3172b8e34e1095ed89e8040" kindref="member">nameLabel</ref><sp/>=<sp/>CreateWindowEx(0,<sp/>L</highlight><highlight class="stringliteral">&quot;static&quot;</highlight><highlight class="normal">,<sp/>L</highlight><highlight class="stringliteral">&quot;Nachname:<sp/>&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WS_CHILD<sp/>|<sp/>WS_VISIBLE<sp/>|<sp/>SS_LEFT,</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>left+100,<sp/>top<sp/>+<sp/>60,</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>width,<sp/>25,</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hWnd,</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(HMENU)1,</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" kindref="member">hInst</ref>,</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NULL);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="_w_p_fcontrol_d_b_8h_1a051ee1e50c5383338789709bd8d3a582" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_w_p_fcontrol_d_b_8cpp_1a051ee1e50c5383338789709bd8d3a582" kindref="member">WPFButtonClicked</ref>(Object<sp/>^sender,<sp/><ref refid="class_d_b_page_event_args" kindref="compound">DBPageEventArgs</ref><sp/>^args)</highlight></codeline>
+<codeline lineno="258"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpage_w_p_f" kindref="compound">pageWPF</ref><sp/>^myPage<sp/>=<sp/><ref refid="class_w_p_f_page_host_1af23c7cac441eeeb886b5bbb4c050f8ee" kindref="member">WPFPageHost::hostedPage</ref>;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(args-&gt;<ref refid="class_d_b_page_event_args_1aae3867279823d2ddb2b52dc994fa07e4" kindref="member">isOkay</ref>)<sp/></highlight><highlight class="comment">//display<sp/>data<sp/>if<sp/>OK<sp/>button<sp/>was<sp/>clicked</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>LPCWSTR<sp/>userName<sp/>=<sp/>(LPCWSTR)<sp/>InteropServices::Marshal::StringToHGlobalAuto(&quot;Name:<sp/>&quot;).ToPointer();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SetWindowText(nameLabel,<sp/>userName);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>myPage-&gt;<ref refid="classpage_w_p_f_1ad074cac30cf59d872d2566a57d9f2922" kindref="member">myText</ref>-&gt;Text<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;geht<sp/>jetzt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetWindowText(<ref refid="_w_p_fcontrol_d_b_8h_1a93b9dcf2f3172b8e34e1095ed89e8040" kindref="member">nameLabel</ref>,<sp/>L</highlight><highlight class="stringliteral">&quot;sdf&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>SetWindowText(,<sp/>userName);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>myPage-&gt;<ref refid="classpage_w_p_f_1ad074cac30cf59d872d2566a57d9f2922" kindref="member">myText</ref>-&gt;Text<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;geht<sp/>nicht&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SetWindowText(zipLabel,<sp/>L&quot;Zip:<sp/>&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="274"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_w_p_fcontrol_d_b_8h" kind="file">
+    <compoundname>WPFcontrolDB.h</compoundname>
+    <includes refid="resource_8h" local="yes">resource.h</includes>
+    <includes refid="page_w_p_f_8h" local="yes">pageWPF.h</includes>
+    <includes local="no">string.h</includes>
+    <includedby refid="_w_p_fcontrol_d_b_8cpp" local="yes">C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp</includedby>
+    <incdepgraph>
+      <node id="81">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>windows.h</label>
+      </node>
+      <node id="85">
+        <label>stdlib.h</label>
+      </node>
+      <node id="83">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="80">
+        <label>pageWPF.h</label>
+        <link refid="page_w_p_f_8h"/>
+        <childnode refid="81" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h</label>
+        <link refid="WPFcontrolDB.h"/>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>malloc.h</label>
+      </node>
+      <node id="82">
+        <label>targetver.h</label>
+        <link refid="targetver_8h"/>
+        <childnode refid="83" relation="include">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>memory.h</label>
+      </node>
+      <node id="89">
+        <label>string.h</label>
+      </node>
+      <node id="88">
+        <label>tchar.h</label>
+      </node>
+      <node id="79">
+        <label>resource.h</label>
+        <link refid="resource_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="90">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h</label>
+        <link refid="WPFcontrolDB.h"/>
+        <childnode refid="91" relation="include">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp</label>
+        <link refid="_w_p_fcontrol_d_b_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_w_p_f_page_host" prot="public">WPFPageHost</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_w_p_fcontrol_d_b_8h_1a04ac63459343f4b03b918f0496fdde7e" prot="public" static="no" mutable="no">
+        <type>RECT</type>
+        <definition>RECT rect</definition>
+        <argsstring></argsstring>
+        <name>rect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="15" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1a40479ac597099ddf16dd650669521846" compoundref="_w_p_fcontrol_d_b_8cpp" startline="210" endline="234">CreateAHorizontalScrollBar</referencedby>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" compoundref="_w_p_fcontrol_d_b_8cpp" startline="127" endline="168">WndProc</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_w_p_fcontrol_d_b_8h_1a760c546baa9be2edb7da36621868ff58" prot="public" static="no" mutable="no">
+        <type>HWND</type>
+        <definition>HWND dataDisplayLabel</definition>
+        <argsstring></argsstring>
+        <name>dataDisplayLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="18" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1a33f396d8f6fa56cde7d0ef537954011a" compoundref="_w_p_fcontrol_d_b_8cpp" startline="236" endline="255">CreateDataDisplay</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_w_p_fcontrol_d_b_8h_1a93b9dcf2f3172b8e34e1095ed89e8040" prot="public" static="no" mutable="no">
+        <type>HWND</type>
+        <definition>HWND nameLabel</definition>
+        <argsstring></argsstring>
+        <name>nameLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="18" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1a33f396d8f6fa56cde7d0ef537954011a" compoundref="_w_p_fcontrol_d_b_8cpp" startline="236" endline="255">CreateDataDisplay</referencedby>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1a051ee1e50c5383338789709bd8d3a582" compoundref="_w_p_fcontrol_d_b_8cpp" startline="257" endline="274">WPFButtonClicked</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_w_p_fcontrol_d_b_8h_1a692ed7c212797703ffa2027a0fcd9654" prot="public" static="no" mutable="no">
+        <type>HWND</type>
+        <definition>HWND addressLabel</definition>
+        <argsstring></argsstring>
+        <name>addressLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="18" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_w_p_fcontrol_d_b_8h_1a7344ca2dcd674239d21edb5ca33cd8a2" prot="public" static="no" mutable="no">
+        <type>HWND</type>
+        <definition>HWND cityLabel</definition>
+        <argsstring></argsstring>
+        <name>cityLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="18" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_w_p_fcontrol_d_b_8h_1ae20fa33ac4233702dcc156cf38758162" prot="public" static="no" mutable="no">
+        <type>HWND</type>
+        <definition>HWND stateLabel</definition>
+        <argsstring></argsstring>
+        <name>stateLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="18" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_w_p_fcontrol_d_b_8h_1ac6e85420f7e1842693ebe3aa77617ab5" prot="public" static="no" mutable="no">
+        <type>HWND</type>
+        <definition>HWND zipLabel</definition>
+        <argsstring></argsstring>
+        <name>zipLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="18" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8h_1aab5e179aff8a8cf063032c03db9734bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>HWND</type>
+        <definition>HWND GetHwnd</definition>
+        <argsstring>(HWND parent, int x, int y, int width, int height)</argsstring>
+        <name>GetHwnd</name>
+        <param>
+          <type>HWND</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="16" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="189" bodyend="209"/>
+        <references refid="classpage_w_p_f_1ae5af5800f7035c814b6521f4bc80a7df">pageWPF::ButtonClickHandler</references>
+        <references refid="class_w_p_f_page_host_1af23c7cac441eeeb886b5bbb4c050f8ee" compoundref="_w_p_fcontrol_d_b_8h" startline="11">WPFPageHost::hostedPage</references>
+        <references refid="classpage_w_p_f_1afe529743ee93e8bf300735de3e14b0cf" compoundref="page_w_p_f_8h" startline="29">pageWPF::OnButtonClicked</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a051ee1e50c5383338789709bd8d3a582" compoundref="_w_p_fcontrol_d_b_8cpp" startline="257" endline="274">WPFButtonClicked</references>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" compoundref="_w_p_fcontrol_d_b_8cpp" startline="127" endline="168">WndProc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8h_1a40479ac597099ddf16dd650669521846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>HWND</type>
+        <definition>HWND CreateAHorizontalScrollBar</definition>
+        <argsstring>(HWND hwndParent, int sbHeight)</argsstring>
+        <name>CreateAHorizontalScrollBar</name>
+        <param>
+          <type>HWND</type>
+          <declname>hwndParent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sbHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="17" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="210" bodyend="234"/>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" compoundref="_w_p_fcontrol_d_b_8cpp" startline="14">hInst</references>
+        <references refid="_w_p_fcontrol_d_b_8h_1a04ac63459343f4b03b918f0496fdde7e" compoundref="_w_p_fcontrol_d_b_8h" startline="15">rect</references>
+      </memberdef>
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8h_1a051ee1e50c5383338789709bd8d3a582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WPFButtonClicked</definition>
+        <argsstring>(Object^sender, DBPageEventArgs^args)</argsstring>
+        <name>WPFButtonClicked</name>
+        <param>
+          <type>Object^</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_page_event_args" kindref="compound">DBPageEventArgs</ref>^</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="20" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="257" bodyend="274"/>
+        <references refid="class_w_p_f_page_host_1af23c7cac441eeeb886b5bbb4c050f8ee" compoundref="_w_p_fcontrol_d_b_8h" startline="11">WPFPageHost::hostedPage</references>
+        <references refid="class_d_b_page_event_args_1aae3867279823d2ddb2b52dc994fa07e4" compoundref="page_w_p_f_8h" startline="18">DBPageEventArgs::isOkay</references>
+        <references refid="classpage_w_p_f_1ad074cac30cf59d872d2566a57d9f2922" compoundref="page_w_p_f_8h" startline="41">pageWPF::myText</references>
+        <references refid="_w_p_fcontrol_d_b_8h_1a93b9dcf2f3172b8e34e1095ed89e8040" compoundref="_w_p_fcontrol_d_b_8h" startline="18">nameLabel</references>
+        <referencedby refid="_w_p_fcontrol_d_b_8h_1aab5e179aff8a8cf063032c03db9734bc" compoundref="_w_p_fcontrol_d_b_8cpp" startline="189" endline="209">GetHwnd</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_w_p_fcontrol_d_b_8h_1a33f396d8f6fa56cde7d0ef537954011a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CreateDataDisplay</definition>
+        <argsstring>(HWND hWnd, int top, int left, int width)</argsstring>
+        <name>CreateDataDisplay</name>
+        <param>
+          <type>HWND</type>
+          <declname>hWnd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h" line="21" column="1" bodyfile="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.cpp" bodystart="236" bodyend="255"/>
+        <references refid="_w_p_fcontrol_d_b_8h_1a760c546baa9be2edb7da36621868ff58" compoundref="_w_p_fcontrol_d_b_8h" startline="18">dataDisplayLabel</references>
+        <references refid="_w_p_fcontrol_d_b_8cpp_1a44f41244c97693b2fbd5244bcb1e86ec" compoundref="_w_p_fcontrol_d_b_8cpp" startline="14">hInst</references>
+        <references refid="_w_p_fcontrol_d_b_8h_1a93b9dcf2f3172b8e34e1095ed89e8040" compoundref="_w_p_fcontrol_d_b_8h" startline="18">nameLabel</references>
+        <referencedby refid="_w_p_fcontrol_d_b_8cpp_1a9135ea2a0d6fce68ba3b858226a31a4f" compoundref="_w_p_fcontrol_d_b_8cpp" startline="127" endline="168">WndProc</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="resource_8h" kindref="compound">resource.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="page_w_p_f_8h" kindref="compound">pageWPF.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;vcclr.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_w_p_f_page_host" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public<sp/>ref<sp/>class</highlight><highlight class="normal"><sp/><ref refid="class_w_p_f_page_host" kindref="compound">WPFPageHost</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_w_p_f_page_host_1af20e92f172eb4ad3942f37e0c0c94c32" kindref="member">WPFPageHost</ref>();</highlight></codeline>
+<codeline lineno="11" refid="class_w_p_f_page_host_1af23c7cac441eeeb886b5bbb4c050f8ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classpage_w_p_f" kindref="compound">pageWPF</ref>^<sp/><ref refid="class_w_p_f_page_host_1af23c7cac441eeeb886b5bbb4c050f8ee" kindref="member">hostedPage</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_w_p_fcontrol_d_b_8h_1a04ac63459343f4b03b918f0496fdde7e" refkind="member"><highlight class="normal">RECT<sp/><ref refid="_w_p_fcontrol_d_b_8h_1a04ac63459343f4b03b918f0496fdde7e" kindref="member">rect</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">HWND<sp/><ref refid="_w_p_fcontrol_d_b_8h_1aab5e179aff8a8cf063032c03db9734bc" kindref="member">GetHwnd</ref>(HWND<sp/>parent,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">HWND<sp/><ref refid="_w_p_fcontrol_d_b_8h_1a40479ac597099ddf16dd650669521846" kindref="member">CreateAHorizontalScrollBar</ref>(HWND<sp/>hwndParent,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sbHeight);</highlight></codeline>
+<codeline lineno="18" refid="_w_p_fcontrol_d_b_8h_1ac6e85420f7e1842693ebe3aa77617ab5" refkind="member"><highlight class="normal">HWND<sp/><ref refid="_w_p_fcontrol_d_b_8h_1a760c546baa9be2edb7da36621868ff58" kindref="member">dataDisplayLabel</ref>,<sp/><ref refid="_w_p_fcontrol_d_b_8h_1a93b9dcf2f3172b8e34e1095ed89e8040" kindref="member">nameLabel</ref>,<sp/><ref refid="_w_p_fcontrol_d_b_8h_1a692ed7c212797703ffa2027a0fcd9654" kindref="member">addressLabel</ref>,<sp/><ref refid="_w_p_fcontrol_d_b_8h_1a7344ca2dcd674239d21edb5ca33cd8a2" kindref="member">cityLabel</ref>,<sp/><ref refid="_w_p_fcontrol_d_b_8h_1ae20fa33ac4233702dcc156cf38758162" kindref="member">stateLabel</ref>,<sp/><ref refid="_w_p_fcontrol_d_b_8h_1ac6e85420f7e1842693ebe3aa77617ab5" kindref="member">zipLabel</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_w_p_fcontrol_d_b_8h_1a051ee1e50c5383338789709bd8d3a582" kindref="member">WPFButtonClicked</ref>(Object<sp/>^sender,<sp/><ref refid="class_d_b_page_event_args" kindref="compound">DBPageEventArgs</ref><sp/>^args);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_w_p_fcontrol_d_b_8h_1a33f396d8f6fa56cde7d0ef537954011a" kindref="member">CreateDataDisplay</ref>(HWND<sp/>hWnd,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>top,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>left,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width);</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Michal/Documents/Visual Studio 2017/Projects/WPFcontrolDB/WPFcontrolDB/WPFcontrolDB.h"/>
+  </compounddef>
+</doxygen>

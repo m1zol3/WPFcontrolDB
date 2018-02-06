@@ -12,26 +12,36 @@ using namespace System::Windows::Media;
 public ref class  DBPageEventArgs : EventArgs
 {
 public:
-   // DBPageEventArgs();
-    //DBPageEventArgs(bool Okay);
+     DBPageEventArgs();
+     DBPageEventArgs(bool Okay);
 
-    property bool Okay;
+    property bool isOkay;
 
 };
 public ref class pageWPF : public Grid {
 private:
-    Label ^ID, ^label1, ^label2, ^label3, ^label4, ^label5, ^label6, ^label7;
+    Label ^ID, ^label1, ^label2, ^label3, ^label4, ^label5, ^label6, ^label7, ^label8;
     Button ^okayButton, ^cancelButton;
     List myList;
+   bool handle = true;
 public:
+    delegate void ButtonClickHandler(Object ^, DBPageEventArgs ^);
+    event ButtonClickHandler ^OnButtonClicked;
+//   delegate void ButtonClickHandler(Object ^, myPage ^);
     pageWPF();
     pageWPF(int height, int width);
+    
     ScrollViewer ^ myScroll;
     Button ^ myButton;
     ComboBox ^ myCombo;
+    ComboBoxItem ^myItem;
     Label ^ CreateLabel(int column, int row, String ^text);
+    void ButtonClicked(Object ^ sender, RoutedEventArgs ^ args);
+    Grid ^myGrid;
+    TextBox ^myText;
+    
     Button ^CreateButton(int column, int row, String ^text);
     ComboBox ^CreateCombo(int column, int row);
-  
+    ComboBoxItem ^CreateMyItem( String ^name, String ^text);
+    TextBox ^ CreaTextBlock(int column, int row);
 };
-
