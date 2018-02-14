@@ -16,7 +16,7 @@ public:
      DBPageEventArgs(bool Okay);
 
     property bool isOkay;
-
+     
 };
 public ref class pageWPF : public Grid {
 private:
@@ -27,7 +27,7 @@ private:
 public:
     delegate void ButtonClickHandler(Object ^, DBPageEventArgs ^);
     event ButtonClickHandler ^OnButtonClicked;
-//   delegate void ButtonClickHandler(Object ^, myPage ^);
+ 
     pageWPF();
     pageWPF(int height, int width);
     
