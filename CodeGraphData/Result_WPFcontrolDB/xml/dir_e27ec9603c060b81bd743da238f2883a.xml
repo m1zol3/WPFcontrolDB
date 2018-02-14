@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_e27ec9603c060b81bd743da238f2883a" kind="dir">
+    <compoundname>D:/Users/micha/Source/Repos/WPFcontrolDB</compoundname>
+    <innerdir refid="dir_f3a7cc5627fa9f9df0128d31c57de545">D:/Users/micha/Source/Repos/WPFcontrolDB/WPFcontrolDB</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Users/micha/Source/Repos/WPFcontrolDB/"/>
+  </compounddef>
+</doxygen>

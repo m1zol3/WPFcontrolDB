@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="namespace_system_1_1_windows_1_1_media" kind="namespace">
-    <compoundname>System::Windows::Media</compoundname>
+  <compounddef id="dir_ea860cdb9715597213e4818ece236331" kind="dir">
+    <compoundname>D:/Users/micha/Source/Repos</compoundname>
+    <innerdir refid="dir_e27ec9603c060b81bd743da238f2883a">D:/Users/micha/Source/Repos/WPFcontrolDB</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="D:/Users/micha/Source/Repos/WPFcontrolDB/WPFcontrolDB/pageWPF.h" line="10" column="1"/>
+    <location file="D:/Users/micha/Source/Repos/"/>
   </compounddef>
 </doxygen>

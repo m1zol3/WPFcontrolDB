@@ -1,9 +1,9 @@
 DOXYFILE_ENCODING = UTF-8
-PROJECT_NAME = WPFcontrolDB_WPFcontrolDB
+PROJECT_NAME = WPFcontrolDB_solution
 PROJECT_NUMBER = 
 PROJECT_BRIEF = 
 PROJECT_LOGO = 
-OUTPUT_DIRECTORY = "D:/Users/micha/Source/Repos/WPFcontrolDB/CodeGraphData/Result_WPFcontrolDB"
+OUTPUT_DIRECTORY = "D:/Users/micha/Source/Repos/WPFcontrolDB/CodeGraphData/Result_solution"
 CREATE_SUBDIRS = NO
 OUTPUT_LANGUAGE = English
 BRIEF_MEMBER_DESC = YES
