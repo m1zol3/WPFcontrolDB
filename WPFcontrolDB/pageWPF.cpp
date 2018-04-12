@@ -153,6 +153,14 @@ void pageWPF::ButtonClicked(Object ^sender, RoutedEventArgs ^args)
     OnButtonClicked(this, gcnew DBPageEventArgs(okClicked));
 }
 
+void pageWPF::ItemChanged(Object ^ sender, RoutedEventArgs ^ args)
+{
+    bool changeClicked = true;
+
+    OnItemChange(this, gcnew DBPageEventArgs(changeClicked));
+}
+
+ 
 DBPageEventArgs::DBPageEventArgs()
 {
     
@@ -162,5 +170,5 @@ DBPageEventArgs::DBPageEventArgs(bool Okay)
 {
 
     isOkay = Okay;
-    
+    isChange = Okay;
 }

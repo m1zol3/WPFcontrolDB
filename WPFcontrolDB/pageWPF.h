@@ -16,6 +16,7 @@ public:
      DBPageEventArgs(bool Okay);
 
     property bool isOkay;
+    property bool isChange;
      
 };
 public ref class pageWPF : public Grid {
@@ -27,7 +28,8 @@ private:
 public:
     delegate void ButtonClickHandler(Object ^, DBPageEventArgs ^);
     event ButtonClickHandler ^OnButtonClicked;
- 
+    delegate void ItemChangeHandler(Object ^, DBPageEventArgs ^);
+    event ItemChangeHandler ^OnItemChange;
     pageWPF();
     pageWPF(int height, int width);
     
@@ -37,6 +39,7 @@ public:
     ComboBoxItem ^myItem;
     Label ^ CreateLabel(int column, int row, String ^text);
     void ButtonClicked(Object ^ sender, RoutedEventArgs ^ args);
+    void ItemChanged(Object ^ sender, RoutedEventArgs ^ args);
     Grid ^myGrid;
     TextBox ^myText;
     
