@@ -8,7 +8,7 @@ using namespace System::Windows::Documents;
 using namespace System::Threading;
 using namespace System::Windows::Controls;
 using namespace System::Windows::Media;
- 
+ //first make
 public ref class  DBPageEventArgs : EventArgs
 {
 public:
